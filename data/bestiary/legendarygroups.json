@@ -3346,64 +3346,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Orcus",
-			"source": "MPMM",
-			"lairActions": [
-				"On Initiative count 20 (losing initiative ties), Orcus can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:",
-				{
-					"type": "list",
-					"style": "list-no-bullets",
-					"items": [
-						{
-							"type": "item",
-							"name": "Deadly Utterance",
-							"entries": [
-								"Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell power word kill}. Orcus needn't see the creature, but he must be aware that the individual is in the lair."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Grasp of the Dead",
-							"entries": [
-								"Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a DC 23 Strength saving throw or be {@condition restrained} until the arms disappear or until Orcus releases them (no action required)."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Undead Servants",
-							"entries": [
-								"Orcus causes up to six corpses within the lair to rise as {@creature skeleton||skeletons}, {@creature zombie||zombies}, or {@creature ghoul||ghouls}. These undead obey his telepathic commands, which can reach anywhere in the lair."
-							]
-						}
-					]
-				}
-			],
-			"regionalEffects": [
-				"The region containing Orcus's lair is warped by his magic, creating one or more of the following effects:",
-				{
-					"type": "list",
-					"style": "list-no-bullets",
-					"items": [
-						{
-							"type": "item",
-							"name": "Charnel Realm",
-							"entries": [
-								"The air is filled with the stench of rotting flesh, and buzzing flies grow thick within the region."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Undead Beasts",
-							"entries": [
-								"Dead Beasts periodically animate as Undead mockeries of their former selves. Skeletal and zombie versions of local wildlife are commonly seen in the area."
-							]
-						}
-					]
-				},
-				"If Orcus dies, these effects fade over the course of {@dice 1d10} days."
-			]
 		}
 	]
 }
