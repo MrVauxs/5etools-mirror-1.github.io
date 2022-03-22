@@ -19,6 +19,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -476,6 +479,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -803,6 +809,7 @@
 				"swamp"
 			],
 			"dragonCastingColor": "black",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/black-dragon.mp3"
@@ -1282,6 +1289,7 @@
 				"coastal"
 			],
 			"dragonCastingColor": "blue",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/blue-dragon.mp3"
@@ -1575,6 +1583,7 @@
 				"desert"
 			],
 			"dragonCastingColor": "brass",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/brass-dragon.mp3"
@@ -1885,6 +1894,7 @@
 				"coastal"
 			],
 			"dragonCastingColor": "bronze",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/bronze-dragon.mp3"
@@ -2174,6 +2184,7 @@
 				"hill"
 			],
 			"dragonCastingColor": "copper",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/copper-dragon.mp3"
@@ -2483,6 +2494,7 @@
 				"forest"
 			],
 			"dragonCastingColor": "gold",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/gold-dragon.mp3"
@@ -2760,6 +2772,7 @@
 				"forest"
 			],
 			"dragonCastingColor": "green",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/green-dragon.mp3"
@@ -3042,6 +3055,7 @@
 				"hill"
 			],
 			"dragonCastingColor": "red",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/red-dragon.mp3"
@@ -3338,6 +3352,7 @@
 				"urban"
 			],
 			"dragonCastingColor": "silver",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/silver-dragon.mp3"
@@ -3629,6 +3644,7 @@
 				"arctic"
 			],
 			"dragonCastingColor": "white",
+			"dragonAge": "adult",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/white-dragon.mp3"
@@ -4154,6 +4170,7 @@
 				"swamp"
 			],
 			"dragonCastingColor": "black",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/black-dragon.mp3"
@@ -4425,6 +4442,7 @@
 				"coastal"
 			],
 			"dragonCastingColor": "blue",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/blue-dragon.mp3"
@@ -4477,6 +4495,11 @@
 			"source": "MM",
 			"page": 104,
 			"srd": true,
+			"otherSources": [
+				{
+					"source": "CRCotN"
+				}
+			],
 			"size": "G",
 			"type": "dragon",
 			"alignment": [
@@ -4720,6 +4743,7 @@
 				"desert"
 			],
 			"dragonCastingColor": "brass",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/brass-dragon.mp3"
@@ -5019,6 +5043,7 @@
 				"coastal"
 			],
 			"dragonCastingColor": "bronze",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/bronze-dragon.mp3"
@@ -5312,6 +5337,7 @@
 				"hill"
 			],
 			"dragonCastingColor": "copper",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/copper-dragon.mp3"
@@ -5614,6 +5640,7 @@
 				"forest"
 			],
 			"dragonCastingColor": "gold",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/gold-dragon.mp3"
@@ -5888,6 +5915,7 @@
 				"forest"
 			],
 			"dragonCastingColor": "green",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/green-dragon.mp3"
@@ -6163,6 +6191,7 @@
 				"hill"
 			],
 			"dragonCastingColor": "red",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/red-dragon.mp3"
@@ -6451,6 +6480,7 @@
 				"urban"
 			],
 			"dragonCastingColor": "silver",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/silver-dragon.mp3"
@@ -6730,6 +6760,7 @@
 				"arctic"
 			],
 			"dragonCastingColor": "white",
+			"dragonAge": "ancient",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/white-dragon.mp3"
@@ -7293,6 +7324,9 @@
 			"otherSources": [
 				{
 					"source": "ToA"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "H",
@@ -8044,6 +8078,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -8724,6 +8761,9 @@
 				},
 				{
 					"source": "TCE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "H",
@@ -8948,6 +8988,9 @@
 				},
 				{
 					"source": "CoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -9096,6 +9139,9 @@
 				},
 				{
 					"source": "CoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -9576,6 +9622,9 @@
 				},
 				{
 					"source": "IMR"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -10731,6 +10780,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -11090,6 +11142,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/black-dragon-wyrmling.mp3"
@@ -11621,6 +11674,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/blue-dragon-wyrmling.mp3"
@@ -12515,6 +12569,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/brass-dragon-wyrmling.mp3"
@@ -12726,6 +12781,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/bronze-dragon-wyrmling.mp3"
@@ -12916,6 +12972,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -13030,6 +13089,9 @@
 			"otherSources": [
 				{
 					"source": "TftYP"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -14342,6 +14404,9 @@
 				},
 				{
 					"source": "BGDIA"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -14630,6 +14695,9 @@
 				},
 				{
 					"source": "GoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -14921,6 +14989,9 @@
 				},
 				{
 					"source": "EGW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -15409,6 +15480,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -15740,6 +15814,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/copper-dragon-wyrmling.mp3"
@@ -16322,6 +16397,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -18305,6 +18383,9 @@
 				},
 				{
 					"source": "CoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -18752,7 +18833,7 @@
 							"{@spell wind walk}"
 						],
 						"1e": [
-							"{@spell conjure elemental} (air elemental only)",
+							"{@spell conjure elemental} ({@creature air elemental} only)",
 							"{@spell creation}",
 							"{@spell gaseous form}",
 							"{@spell invisibility}",
@@ -19423,6 +19504,9 @@
 			"otherSources": [
 				{
 					"source": "WDMM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -19680,6 +19764,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -19889,6 +19976,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -20627,6 +20717,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -20780,6 +20873,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -20888,7 +20984,8 @@
 				"path": "bestiary/dryad.mp3"
 			},
 			"traitTags": [
-				"Magic Resistance"
+				"Magic Resistance",
+				"Tree Stride"
 			],
 			"senseTags": [
 				"D"
@@ -21439,6 +21536,9 @@
 				},
 				{
 					"source": "TCE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -21662,7 +21762,7 @@
 				{
 					"name": "Elemental Demise",
 					"entries": [
-						"If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the djinni was wearing or carrying."
+						"If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying."
 					]
 				}
 			],
@@ -24231,6 +24331,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "T",
@@ -25978,6 +26081,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -27782,6 +27888,9 @@
 				},
 				{
 					"source": "TCE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -28440,6 +28549,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "H",
@@ -28577,6 +28689,9 @@
 				},
 				{
 					"source": "TCE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -28821,6 +28936,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -29214,6 +29332,9 @@
 				},
 				{
 					"source": "TCE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -29787,6 +29908,9 @@
 				},
 				{
 					"source": "EGW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -29998,6 +30122,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -30661,6 +30788,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "S",
@@ -31100,6 +31230,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/gold-dragon-wyrmlin.mp3"
@@ -31936,6 +32067,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/green-dragon-wyrmling.mp3"
@@ -33129,6 +33261,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -34370,6 +34505,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -36433,6 +36571,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -36750,6 +36891,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -37536,6 +37680,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -40028,6 +40175,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -40481,6 +40631,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "H",
@@ -40573,6 +40726,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "S",
@@ -42492,6 +42648,9 @@
 				},
 				{
 					"source": "MOT"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -44526,6 +44685,9 @@
 				},
 				{
 					"source": "CoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -44682,6 +44844,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -45145,6 +45310,9 @@
 				},
 				{
 					"source": "RMBRE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -45410,6 +45578,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -45827,6 +45998,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -46118,6 +46292,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -46664,6 +46841,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -47786,6 +47966,9 @@
 			"otherSources": [
 				{
 					"source": "BGDIA"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -48505,6 +48688,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -49495,6 +49681,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "T",
@@ -49662,6 +49851,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "T",
@@ -50247,6 +50439,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/red-dragon-wyrmling.mp3"
@@ -50430,6 +50623,9 @@
 				},
 				{
 					"source": "EGW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -50656,6 +50852,9 @@
 				},
 				{
 					"source": "MOT"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -50917,6 +51116,9 @@
 				},
 				{
 					"source": "EGW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -51123,6 +51325,9 @@
 				},
 				{
 					"source": "WDMM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -52610,6 +52815,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -53258,6 +53466,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -53566,6 +53777,9 @@
 				},
 				{
 					"source": "IDRotF"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -53944,6 +54158,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/silver-dragon-wyrmling.mp3"
@@ -54030,6 +54245,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -54377,6 +54595,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -55541,6 +55762,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -56114,6 +56338,9 @@
 				},
 				{
 					"source": "CoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -56456,6 +56683,9 @@
 				},
 				{
 					"source": "TCE"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -57193,6 +57423,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -58259,6 +58492,9 @@
 				},
 				{
 					"source": "CoS"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -61073,6 +61309,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -61416,6 +61655,9 @@
 				},
 				{
 					"source": "CM"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -61694,6 +61936,9 @@
 				},
 				{
 					"source": "EGW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "L",
@@ -63379,6 +63624,7 @@
 					]
 				}
 			],
+			"dragonAge": "wyrmling",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/white-dragon-wyrmling.mp3"
@@ -63625,6 +63871,9 @@
 				},
 				{
 					"source": "WBtW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "T",
@@ -64817,6 +65066,9 @@
 				},
 				{
 					"source": "EGW"
+				},
+				{
+					"source": "CRCotN"
 				}
 			],
 			"size": "M",
@@ -65206,6 +65458,7 @@
 				"swamp"
 			],
 			"dragonCastingColor": "black",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/black-dragon.mp3"
@@ -65430,6 +65683,7 @@
 				"coastal"
 			],
 			"dragonCastingColor": "blue",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/blue-dragon.mp3"
@@ -65664,6 +65918,7 @@
 				"desert"
 			],
 			"dragonCastingColor": "brass",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/brass-dragon.mp3"
@@ -65908,6 +66163,7 @@
 				"coastal"
 			],
 			"dragonCastingColor": "bronze",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/bronze-dragon.mp3"
@@ -66138,6 +66394,7 @@
 				"hill"
 			],
 			"dragonCastingColor": "copper",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/copper-dragon.mp3"
@@ -66378,6 +66635,7 @@
 				"forest"
 			],
 			"dragonCastingColor": "gold",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/gold-dragon.mp3"
@@ -66607,6 +66865,7 @@
 				"forest"
 			],
 			"dragonCastingColor": "green",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/green-dragon.mp3"
@@ -66835,6 +67094,7 @@
 				"hill"
 			],
 			"dragonCastingColor": "red",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/red-dragon.mp3"
@@ -67058,6 +67318,7 @@
 				"underdark"
 			],
 			"dragonCastingColor": "red",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/red-shadow-dragon.mp3"
@@ -67379,6 +67640,7 @@
 				"urban"
 			],
 			"dragonCastingColor": "silver",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/silver-dragon.mp3"
@@ -67608,6 +67870,7 @@
 				"arctic"
 			],
 			"dragonCastingColor": "white",
+			"dragonAge": "young",
 			"soundClip": {
 				"type": "internal",
 				"path": "bestiary/white-dragon.mp3"
