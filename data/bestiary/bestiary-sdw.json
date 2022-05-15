@@ -18,7 +18,9 @@
 			"name": "Expert",
 			"source": "SDW",
 			"level": 9,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"ac": [
 				{
@@ -119,7 +121,9 @@
 		{
 			"name": "Giant Shark Skeleton",
 			"source": "SDW",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -196,7 +200,9 @@
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "SDW",
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -439,6 +445,13 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"S",
+				"T"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"spellcastingTags": [
 				"CS",
 				"I"
@@ -469,7 +482,9 @@
 			"name": "Spellcaster (Healer)",
 			"source": "SDW",
 			"level": 9,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"ac": [
 				{
@@ -581,6 +596,9 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -596,7 +614,9 @@
 			"name": "Spellcaster (Mage)",
 			"source": "SDW",
 			"level": 9,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"ac": [
 				{
@@ -708,6 +728,10 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"C",
+				"F"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -724,7 +748,9 @@
 			"name": "Warrior",
 			"source": "SDW",
 			"level": 9,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"ac": [
 				{

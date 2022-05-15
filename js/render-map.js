@@ -2,6 +2,10 @@ class RenderMap {
 	static async pShowViewer (evt, ele) {
 		const mapData = JSON.parse(ele.dataset.rdPackedMap);
 
+		if (!mapData.page) mapData.page = ele.dataset.rdAdventureBookMapPage;
+		if (!mapData.source) mapData.source = ele.dataset.rdAdventureBookMapSource;
+		if (!mapData.hash) mapData.hash = ele.dataset.rdAdventureBookMapHash;
+
 		await RenderMap._pMutMapData(mapData);
 
 		if (!mapData.loadedImage) return;
@@ -25,6 +29,7 @@ class RenderMap {
 						height: Math.min(window.innerHeight, Math.round(mapData.getZoom() * mapData.height) + 32),
 					};
 				},
+				isPopout: !!evt.shiftKey,
 			},
 		);
 	}

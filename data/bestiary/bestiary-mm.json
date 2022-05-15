@@ -24,7 +24,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -132,7 +134,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -275,6 +279,9 @@
 				"B",
 				"Y"
 			],
+			"damageTagsLegendary": [
+				"Y"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -310,7 +317,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -484,7 +493,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -567,6 +578,9 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -601,7 +615,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -837,6 +853,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"I",
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -867,7 +887,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -1036,6 +1058,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B",
+				"L"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -1079,7 +1105,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -1316,6 +1344,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B",
+				"L"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -1347,7 +1379,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -1610,6 +1644,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -1653,7 +1690,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -1923,6 +1962,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"S",
+				"T"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -1956,7 +1999,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -2211,6 +2256,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -2243,7 +2291,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -2558,7 +2608,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -2800,6 +2852,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B",
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -2844,7 +2900,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -3082,6 +3140,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"F"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -3116,7 +3177,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -3380,6 +3443,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"C"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -3428,7 +3494,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -3485,7 +3553,7 @@
 				{
 					"name": "Ice Walk",
 					"entries": [
-						"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+						"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, {@quickref difficult terrain||3} composed of ice or snow doesn't cost it extra movement."
 					]
 				},
 				{
@@ -3671,6 +3739,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"C",
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -3743,7 +3815,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -3877,7 +3951,9 @@
 					"source": "WDH"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -3962,7 +4038,9 @@
 			"source": "MM",
 			"page": 87,
 			"srd": true,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -4198,6 +4276,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"I",
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -4232,7 +4314,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -4469,6 +4553,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B",
+				"L"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -4500,7 +4588,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -4771,6 +4861,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -4802,7 +4895,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -5072,6 +5167,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"S",
+				"T"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -5102,7 +5201,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -5365,6 +5466,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -5389,7 +5493,9 @@
 			"source": "MM",
 			"page": 113,
 			"srd": true,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -5701,7 +5807,9 @@
 					"source": "DIP"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -5943,6 +6051,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"B",
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -5980,7 +6092,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -6218,6 +6332,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"F"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -6244,7 +6361,9 @@
 			"source": "MM",
 			"page": 116,
 			"srd": true,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -6508,6 +6627,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"C"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -6544,7 +6666,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -6601,7 +6725,7 @@
 				{
 					"name": "Ice Walk",
 					"entries": [
-						"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+						"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, {@quickref difficult terrain||3} composed of ice or snow doesn't cost it extra movement."
 					]
 				},
 				{
@@ -6787,6 +6911,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"C",
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -6819,7 +6947,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -7046,6 +7176,13 @@
 				"S",
 				"T"
 			],
+			"damageTagsLegendary": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"F",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -7117,7 +7254,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -7236,7 +7375,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -7329,7 +7470,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -7409,7 +7552,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -7500,7 +7645,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -7739,6 +7886,16 @@
 				"I",
 				"S"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"L",
+				"N",
+				"O",
+				"P",
+				"S",
+				"Y"
+			],
 			"spellcastingTags": [
 				"CW",
 				"I"
@@ -7799,7 +7956,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -7994,6 +8153,12 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"C",
+				"F",
+				"L",
+				"O"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -8083,7 +8248,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -8101,7 +8268,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -8231,7 +8398,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -8336,7 +8505,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -8433,7 +8604,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -8494,7 +8667,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"L",
@@ -8610,7 +8785,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -8680,7 +8857,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -8766,7 +8945,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -8993,7 +9174,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -9144,7 +9327,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -9162,7 +9347,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -9291,7 +9476,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -9372,7 +9559,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 ({@damage 1d10}) force damage if she ends her turn inside an object."
+						"The banshee can move through other creatures and objects as if they were {@quickref difficult terrain||3}. She takes 5 ({@damage 1d10}) force damage if she ends her turn inside an object."
 					]
 				}
 			],
@@ -9457,7 +9644,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -9627,7 +9816,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -9779,6 +9970,9 @@
 				"B",
 				"P"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -9812,7 +10006,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -9909,7 +10105,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -10002,7 +10200,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -10156,7 +10356,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -10300,7 +10502,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -10592,7 +10796,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -10785,7 +10991,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10898,7 +11106,9 @@
 					"source": "IMR"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -10993,7 +11203,9 @@
 					"source": "TftYP"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -11206,7 +11418,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -11334,7 +11548,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"L",
@@ -11439,7 +11655,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -11526,7 +11744,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -11713,7 +11933,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -11867,7 +12089,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -11968,7 +12192,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -12146,7 +12372,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -12254,6 +12482,10 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"N",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -12269,7 +12501,9 @@
 			"name": "Bone Naga (Spirit)",
 			"source": "MM",
 			"page": 233,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -12377,6 +12611,10 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"C",
+				"L"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -12396,7 +12634,9 @@
 			"source": "MM",
 			"page": 106,
 			"srd": true,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -12607,7 +12847,9 @@
 			"source": "MM",
 			"page": 109,
 			"srd": true,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -12843,7 +13085,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -12977,7 +13221,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13094,7 +13340,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13231,7 +13479,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -13338,7 +13588,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -13476,7 +13728,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"alignment": [
 				"L",
@@ -13656,6 +13910,11 @@
 				"F",
 				"P"
 			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -13732,7 +13991,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -13805,7 +14066,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -13946,7 +14209,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -14024,7 +14289,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -14139,7 +14406,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -14251,7 +14520,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -14291,7 +14562,7 @@
 			"senses": [
 				"darkvision 120 ft."
 			],
-			"passive": 8,
+			"passive": 11,
 			"resist": [
 				"cold",
 				{
@@ -14409,7 +14680,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -14572,7 +14845,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -14700,7 +14975,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -14838,7 +15115,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -14994,7 +15273,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -15147,7 +15428,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				{
@@ -15346,7 +15629,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -15485,7 +15770,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15573,7 +15860,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -15648,7 +15937,9 @@
 			"source": "MM",
 			"page": 111,
 			"srd": true,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -15866,7 +16157,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -16015,6 +16308,9 @@
 				"B",
 				"P"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -16049,7 +16345,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -16149,7 +16447,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -16264,7 +16564,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -16402,7 +16704,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -16526,6 +16830,11 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -16607,7 +16916,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -16727,7 +17038,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -16847,7 +17160,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -17004,6 +17319,9 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -17091,7 +17409,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -17198,7 +17518,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -17304,7 +17626,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -17466,6 +17790,16 @@
 				"N",
 				"S"
 			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"L",
+				"N",
+				"R",
+				"T",
+				"Y"
+			],
 			"spellcastingTags": [
 				"CP"
 			],
@@ -17509,7 +17843,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -17685,6 +18021,10 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"F",
+				"I"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -17714,7 +18054,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -17937,7 +18279,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -18082,7 +18426,9 @@
 					"source": "DIP"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -18150,7 +18496,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -18335,6 +18683,9 @@
 			"damageTags": [
 				"N"
 			],
+			"damageTagsLegendary": [
+				"N"
+			],
 			"conditionInflict": [
 				"blinded",
 				"frightened"
@@ -18388,7 +18739,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -18564,7 +18917,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -18662,7 +19017,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -18770,7 +19127,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -18918,6 +19277,9 @@
 				"S",
 				"T"
 			],
+			"damageTagsSpell": [
+				"T"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -19034,7 +19396,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -19169,7 +19533,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -19240,7 +19606,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -19389,7 +19757,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -19509,7 +19879,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -19769,7 +20141,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19981,7 +20355,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -19996,7 +20372,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item studded leather armor|phb}",
+						"{@item studded leather armor|phb|studded leather}",
 						"{@item shield|phb}"
 					]
 				}
@@ -20226,7 +20602,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20396,6 +20774,16 @@
 				"B",
 				"I"
 			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"P",
+				"S"
+			],
 			"spellcastingTags": [
 				"CW",
 				"I"
@@ -20426,7 +20814,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20628,6 +21018,11 @@
 				"P",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"F",
+				"I",
+				"P"
+			],
 			"spellcastingTags": [
 				"CC",
 				"I"
@@ -20722,7 +21117,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -20834,6 +21231,10 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"F",
+				"T"
+			],
 			"spellcastingTags": [
 				"CD"
 			],
@@ -20878,7 +21279,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"N"
@@ -21041,7 +21444,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -21165,7 +21570,9 @@
 			],
 			"source": "MM",
 			"page": 225,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -21299,7 +21706,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -21445,7 +21854,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -21541,7 +21952,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -21688,7 +22101,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"L",
@@ -21830,6 +22245,9 @@
 				"F",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -21905,7 +22323,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -21997,7 +22417,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -22083,7 +22505,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "celestial",
 				"tags": [
@@ -22254,6 +22678,10 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -22288,7 +22716,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -22506,7 +22936,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -22662,7 +23094,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -22769,7 +23203,9 @@
 			"name": "Faerie Dragon (Blue)",
 			"source": "MM",
 			"page": 133,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -22928,7 +23364,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -23081,7 +23519,9 @@
 			"name": "Faerie Dragon (Indigo)",
 			"source": "MM",
 			"page": 133,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -23236,7 +23676,9 @@
 			"name": "Faerie Dragon (Orange)",
 			"source": "MM",
 			"page": 133,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -23391,7 +23833,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -23548,7 +23992,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -23704,7 +24150,9 @@
 			"name": "Faerie Dragon (Yellow)",
 			"source": "MM",
 			"page": 133,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -23892,7 +24340,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -24040,7 +24490,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"L",
@@ -24178,7 +24630,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -24336,7 +24790,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -24492,6 +24948,10 @@
 			"damageTags": [
 				"F"
 			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -24549,7 +25009,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"N"
@@ -24690,7 +25152,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -24815,7 +25279,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -24936,7 +25402,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -25046,7 +25514,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -25159,7 +25629,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -25245,7 +25717,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"N",
@@ -25379,7 +25853,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -25540,7 +26016,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -25669,7 +26147,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -25785,7 +26265,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -25913,7 +26395,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -26086,7 +26570,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"A"
@@ -26161,7 +26647,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The ghost can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				}
 			],
@@ -26280,7 +26766,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -26378,7 +26866,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -26457,7 +26947,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -26557,7 +27049,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -26648,7 +27142,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -26747,7 +27243,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -26837,7 +27335,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -26947,7 +27447,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27042,7 +27544,9 @@
 					"source": "SLW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27144,7 +27648,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"N",
@@ -27248,7 +27754,9 @@
 					"source": "SKT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27355,7 +27863,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27455,7 +27965,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27568,7 +28080,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27658,7 +28172,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27747,7 +28263,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -27893,7 +28411,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28010,7 +28530,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"N"
@@ -28129,7 +28651,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28233,7 +28757,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28360,7 +28886,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28448,7 +28976,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28554,7 +29084,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28694,7 +29226,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28824,7 +29358,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -28941,7 +29477,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"N",
@@ -29052,7 +29590,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -29120,7 +29660,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -29215,7 +29757,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -29337,7 +29881,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N"
@@ -29371,7 +29917,7 @@
 				{
 					"name": "Aberrant Ground",
 					"entries": [
-						"The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a {@dc 10} Strength saving throw or have its speed reduced to 0 until the start of its next turn."
+						"The ground in a 10-foot radius around the mouther is doughlike {@quickref difficult terrain||3}. Each creature that starts its turn in that area must succeed on a {@dc 10} Strength saving throw or have its speed reduced to 0 until the start of its next turn."
 					]
 				},
 				{
@@ -29438,7 +29984,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -29552,7 +30100,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -29656,7 +30206,9 @@
 			"name": "Githzerai Monk",
 			"source": "MM",
 			"page": 161,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -29774,7 +30326,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -29877,6 +30431,9 @@
 				"B",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"I",
 				"P"
@@ -29913,7 +30470,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -30127,7 +30686,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -30141,7 +30702,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item studded leather armor|phb}",
+						"{@item studded leather armor|phb|studded leather}",
 						"{@item shield|phb}"
 					]
 				}
@@ -30277,7 +30838,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -30390,7 +30953,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -30514,7 +31079,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -30668,7 +31235,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -30793,7 +31362,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -30926,7 +31497,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -31048,7 +31621,9 @@
 			"source": "MM",
 			"page": 115,
 			"srd": true,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -31285,7 +31860,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -31386,7 +31963,9 @@
 			"name": "Goristro",
 			"source": "MM",
 			"page": 59,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -31562,7 +32141,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -31711,7 +32292,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -31888,6 +32471,9 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -31915,7 +32501,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -32128,7 +32716,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"N",
@@ -32322,6 +32912,9 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"CW",
 				"I",
@@ -32422,7 +33015,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -32593,6 +33188,9 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -32634,7 +33232,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -32761,7 +33361,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -32870,7 +33472,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -33010,7 +33614,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -33109,7 +33715,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -33266,7 +33874,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -33355,7 +33965,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -33509,6 +34121,12 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"R",
+				"Y"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -33537,7 +34155,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -33728,6 +34348,9 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsLegendary": [
+				"N"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -33762,7 +34385,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -33866,7 +34491,9 @@
 					"source": "IMR"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -34009,7 +34636,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -34119,7 +34748,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -34226,7 +34857,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"alignment": [
 				"L",
@@ -34362,7 +34995,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -34510,7 +35145,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -34685,7 +35322,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -34814,7 +35453,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -34939,7 +35580,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -35055,7 +35698,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -35179,7 +35824,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -35338,7 +35985,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "construct",
 			"alignment": [
 				"N"
@@ -35435,7 +36084,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -35546,7 +36197,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -35712,7 +36365,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -35828,7 +36483,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -35946,7 +36603,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -36023,7 +36682,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -36223,7 +36884,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -36396,7 +37059,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -36576,7 +37241,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -36731,7 +37398,9 @@
 					"source": "ERLW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -36896,7 +37565,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -37045,7 +37716,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -37198,7 +37871,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -37284,7 +37959,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -37427,7 +38104,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -37542,7 +38221,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -37685,7 +38366,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -37832,7 +38515,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -37954,7 +38639,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -38032,7 +38719,7 @@
 				{
 					"name": "Freedom of Movement",
 					"entries": [
-						"The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"The kraken ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
 					]
 				},
 				{
@@ -38132,6 +38819,9 @@
 				"L",
 				"P"
 			],
+			"damageTagsLegendary": [
+				"L"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -38171,7 +38861,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -38316,7 +39008,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -38485,6 +39179,12 @@
 				"B",
 				"L"
 			],
+			"damageTagsSpell": [
+				"B",
+				"N",
+				"O",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -38510,7 +39210,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -38658,7 +39360,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -38796,6 +39500,9 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -38829,7 +39536,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -38941,6 +39650,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -38964,7 +39676,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -39076,7 +39790,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -39315,6 +40031,18 @@
 				"C",
 				"N"
 			],
+			"damageTagsLegendary": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"N",
+				"O",
+				"T"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -39345,7 +40073,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -39450,7 +40180,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -39516,7 +40248,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -39648,7 +40382,9 @@
 			"name": "Lizard Queen",
 			"source": "MM",
 			"page": 205,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -39817,7 +40553,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -39951,7 +40689,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -40088,6 +40828,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F",
+				"P"
+			],
 			"spellcastingTags": [
 				"CD",
 				"F"
@@ -40180,7 +40924,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -40310,6 +41056,12 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"O"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -40365,7 +41117,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -40491,6 +41245,9 @@
 				"F",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -40524,7 +41281,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -40636,7 +41395,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -40731,7 +41492,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -40851,7 +41614,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -40980,7 +41745,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"C",
@@ -41141,6 +41908,9 @@
 				"B",
 				"P"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -41236,7 +42006,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -41437,7 +42209,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -41530,7 +42304,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"L",
@@ -41657,7 +42433,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -41767,7 +42545,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -41892,7 +42672,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -42064,6 +42846,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"I"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -42119,7 +42904,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -42264,7 +43051,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -42417,7 +43206,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -42595,6 +43386,9 @@
 				"P",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"L"
+			],
 			"spellcastingTags": [
 				"CW",
 				"I",
@@ -42653,7 +43447,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -42787,7 +43583,9 @@
 					"source": "IMR"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -42903,7 +43701,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -43036,7 +43836,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -43170,7 +43972,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -43267,7 +44071,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -43400,7 +44206,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -43625,6 +44433,12 @@
 				"B",
 				"N"
 			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"P",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -43660,7 +44474,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"L",
@@ -43808,7 +44624,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"alignment": [
 				"L",
@@ -43969,7 +44787,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"alignment": [
 				"L",
@@ -44068,7 +44888,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -44239,7 +45061,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"N",
@@ -44360,7 +45184,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"alignment": [
 				"N",
@@ -44583,6 +45409,9 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"spellcastingTags": [
 				"CW",
 				"I",
@@ -44690,7 +45519,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"alignment": [
 				"N",
@@ -44849,7 +45680,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -44966,7 +45799,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -45095,7 +45930,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -45315,7 +46152,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -45435,7 +46274,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -45583,7 +46424,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -45696,7 +46539,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -45810,7 +46655,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"L",
@@ -45945,6 +46792,9 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"C"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -46003,7 +46853,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -46132,7 +46984,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -46258,6 +47112,9 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -46297,7 +47154,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -46451,7 +47310,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -46590,7 +47451,9 @@
 					"source": "IMR"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N"
@@ -46716,7 +47579,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -46846,7 +47711,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -46958,7 +47825,9 @@
 					"source": "WDH"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -47056,7 +47925,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"C",
@@ -47141,7 +48012,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -47290,7 +48163,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -47433,7 +48308,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -47551,7 +48428,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -47653,7 +48532,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -47815,6 +48696,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -47854,7 +48738,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "fey",
 			"alignment": [
 				"N",
@@ -47941,6 +48827,9 @@
 			"languageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -47971,7 +48860,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -48120,6 +49011,12 @@
 				"R",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F",
+				"P",
+				"R",
+				"S"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -48153,7 +49050,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -48244,7 +49143,9 @@
 					"source": "IMR"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -48330,7 +49231,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -48428,7 +49331,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -48498,7 +49403,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The poltergeist can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The poltergeist can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -48576,7 +49481,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -48693,7 +49600,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -48804,6 +49713,11 @@
 				"B",
 				"R"
 			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -48844,7 +49758,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -48995,7 +49911,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -49078,7 +49996,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -49192,7 +50112,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -49329,7 +50251,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -49439,7 +50363,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -49529,7 +50455,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -49641,6 +50569,9 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I",
 				"P"
@@ -49686,7 +50617,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -49856,7 +50789,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -49953,7 +50888,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fiend",
 			"alignment": [
 				"L",
@@ -50124,7 +51061,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -50210,7 +51149,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -50290,7 +51231,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -50481,7 +51424,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -50628,7 +51573,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -50735,7 +51682,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -50857,7 +51806,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N"
@@ -51024,7 +51975,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -51121,7 +52074,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -51206,7 +52161,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -51330,7 +52287,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -51491,7 +52450,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -51612,7 +52573,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -51713,7 +52676,9 @@
 					"source": "CoS"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -51817,7 +52782,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -51952,7 +52919,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -52096,7 +53065,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -52241,6 +53212,10 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"O",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -52273,7 +53248,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -52414,7 +53391,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -52571,7 +53550,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"C",
@@ -52698,7 +53679,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -52820,7 +53803,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -52961,7 +53946,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -53229,7 +54216,9 @@
 			"page": 337,
 			"srd": true,
 			"basicRules": true,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -53316,7 +54305,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -53471,7 +54462,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -53551,7 +54544,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The demon can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -53638,7 +54631,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -53782,7 +54777,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -53913,7 +54910,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -53993,7 +54992,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -54250,7 +55251,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -54350,7 +55353,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -54451,7 +55456,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -54600,7 +55607,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -54786,6 +55795,9 @@
 				"R",
 				"S"
 			],
+			"damageTagsSpell": [
+				"S"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -54830,7 +55842,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -55036,7 +56050,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -55106,7 +56122,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The specter can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -55165,7 +56181,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -55260,7 +56278,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -55427,7 +56447,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -55566,6 +56588,12 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"C",
+				"L",
+				"N",
+				"O"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -55608,7 +56636,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "fey",
 			"alignment": [
 				"N",
@@ -55767,7 +56797,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -55890,7 +56922,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -56061,7 +57095,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -56152,7 +57188,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"N"
@@ -56343,7 +57381,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -56485,7 +57525,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -56688,7 +57730,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -56863,7 +57907,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -56967,7 +58013,9 @@
 			"source": "MM",
 			"page": 338,
 			"srd": true,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57071,7 +58119,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57188,7 +58238,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57311,7 +58363,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57428,7 +58482,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57559,7 +58615,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57680,7 +58738,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57789,7 +58849,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -57918,7 +58980,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -58024,7 +59088,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -58220,7 +59286,9 @@
 			"name": "Thri-kreen",
 			"source": "MM",
 			"page": 288,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -58497,7 +59565,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -58621,7 +59691,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -58752,7 +59824,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"alignment": [
 				"C",
@@ -58899,7 +59973,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -58997,7 +60073,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -59080,7 +60158,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -59222,7 +60302,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -59389,7 +60471,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -59608,7 +60692,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"alignment": [
 				"N",
@@ -59719,7 +60805,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -59811,7 +60899,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -59997,6 +61087,13 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"O",
+				"P",
+				"S"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -60034,7 +61131,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -60159,7 +61258,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -60382,7 +61483,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -60623,7 +61726,9 @@
 					"source": "TCE"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -60765,7 +61870,9 @@
 					"source": "RoT"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -61011,6 +62118,10 @@
 				"N",
 				"P"
 			],
+			"damageTagsSpell": [
+				"C",
+				"N"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -61033,7 +62144,9 @@
 			"name": "Vampire Warrior",
 			"source": "MM",
 			"page": 298,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -61314,7 +62427,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -61428,7 +62543,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"N",
@@ -61488,7 +62605,7 @@
 				{
 					"name": "Entangling Plants {@recharge 5}",
 					"entries": [
-						"Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for nonplant creatures. In addition, each creature of the blight's choice in that area when the plants appear must succeed on a {@dc 12} Strength saving throw or become {@condition restrained}. A creature can use its action to make a {@dc 12} Strength check, freeing it self or another entangled creature within reach on a success."
+						"Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is {@quickref difficult terrain||3} for nonplant creatures. In addition, each creature of the blight's choice in that area when the plants appear must succeed on a {@dc 12} Strength saving throw or become {@condition restrained}. A creature can use its action to make a {@dc 12} Strength check, freeing it self or another entangled creature within reach on a success."
 					]
 				}
 			],
@@ -61546,7 +62663,9 @@
 					"source": "GoS"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"U"
@@ -61660,7 +62779,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -61839,7 +62960,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -61941,7 +63064,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -62157,7 +63282,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -62264,7 +63391,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -62418,7 +63547,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -62538,7 +63669,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -62613,7 +63746,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -62787,7 +63922,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -62967,7 +64104,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -63117,7 +64256,9 @@
 					"source": "EGW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -63315,7 +64456,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -63475,7 +64618,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -63701,7 +64846,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -63711,7 +64858,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -63876,7 +65023,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -63956,7 +65105,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The will-o'-wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The will-o'-wisp can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -64030,7 +65179,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -64153,7 +65304,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -64303,7 +65456,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -64407,7 +65562,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -64549,7 +65706,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -64618,7 +65777,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The wraith can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -64702,7 +65861,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"U"
@@ -64803,7 +65964,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -64940,7 +66103,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -65071,7 +66236,9 @@
 					"source": "CRCotN"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -65252,6 +66419,9 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -65292,7 +66462,9 @@
 					"source": "BGDIA"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -65517,7 +66689,9 @@
 					"source": "MOT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -65727,7 +66901,9 @@
 					"source": "SKT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -65971,7 +67147,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -66210,7 +67388,9 @@
 					"source": "SKT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -66433,7 +67613,9 @@
 			"source": "MM",
 			"page": 115,
 			"srd": true,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -66695,7 +67877,9 @@
 					"source": "RMBRE"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -66927,7 +68111,9 @@
 					"source": "WDMM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -67129,7 +68315,9 @@
 			"name": "Young Red Shadow Dragon",
 			"source": "MM",
 			"page": 85,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -67367,7 +68555,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -67455,7 +68645,9 @@
 					"source": "SKT"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"L",
@@ -67696,7 +68888,9 @@
 					"source": "IDRotF"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"C",
@@ -67753,7 +68947,7 @@
 				{
 					"name": "Ice Walk",
 					"entries": [
-						"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+						"The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, {@quickref difficult terrain||3} composed of ice or snow doesn't cost it extra movement."
 					]
 				}
 			],
@@ -67925,7 +69119,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -68117,7 +69313,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -68309,7 +69507,9 @@
 					"source": "ToA"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -68489,7 +69689,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -68701,7 +69903,9 @@
 					"source": "CM"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -68824,6 +70028,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"I"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -68898,7 +70105,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",

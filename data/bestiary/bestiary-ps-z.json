@@ -30,7 +30,9 @@
 			"name": "Archon Of Redemption",
 			"source": "PSZ",
 			"page": 22,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -174,6 +176,12 @@
 				"R",
 				"S"
 			],
+			"damageTagsSpell": [
+				"N",
+				"R",
+				"T",
+				"Y"
+			],
 			"spellcastingTags": [
 				"I"
 			],
@@ -282,7 +290,9 @@
 			"name": "Felidar",
 			"source": "PSZ",
 			"page": 23,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -624,13 +634,16 @@
 						"flags": "i"
 					}
 				}
-			}
+			},
+			"damageTagsLegendary": []
 		},
 		{
 			"name": "Kraken",
 			"source": "PSZ",
 			"page": 25,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -875,7 +888,8 @@
 			"_copy": {
 				"name": "Androsphinx",
 				"source": "MM"
-			}
+			},
+			"damageTagsLegendary": []
 		},
 		{
 			"name": "Sphinx (Type 2)",
@@ -884,7 +898,8 @@
 			"_copy": {
 				"name": "Gynosphinx",
 				"source": "MM"
-			}
+			},
+			"damageTagsLegendary": []
 		},
 		{
 			"name": "Spirit",

@@ -19,7 +19,9 @@
 					"page": 209
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -134,6 +136,9 @@
 			"damageTags": [
 				"O"
 			],
+			"damageTagsSpell": [
+				"L"
+			],
 			"miscTags": [
 				"AOE"
 			],
@@ -154,7 +159,9 @@
 					"page": 212
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -270,7 +277,9 @@
 					"page": 218
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"alignment": [
 				"L",
@@ -448,7 +457,9 @@
 					"page": 202
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -567,7 +578,9 @@
 					"page": 172
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -691,8 +704,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The alhoon makes two Chilling Grasp or Arcane",
-						"Bolt attacks."
+						"The alhoon makes two Chilling Grasp or Arcane Bolt attacks."
 					]
 				},
 				{
@@ -773,7 +785,9 @@
 					"page": 130
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -949,7 +963,9 @@
 					"page": 116
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"N",
@@ -1028,7 +1044,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The allip can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The allip can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -1098,7 +1114,9 @@
 					"page": 164
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -1285,6 +1303,9 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -1310,7 +1331,9 @@
 					"page": 231
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -1426,7 +1449,9 @@
 					"page": 159
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -1562,7 +1587,9 @@
 					"page": 209
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -1642,6 +1669,9 @@
 			"damageTags": [
 				"O"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -1655,7 +1685,9 @@
 					"page": 210
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1803,7 +1835,9 @@
 					"page": 210
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -1902,7 +1936,9 @@
 					"page": 131
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -2040,7 +2076,9 @@
 					"page": 117
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -2226,7 +2264,9 @@
 					"page": 207
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -2298,7 +2338,9 @@
 					"page": 195
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -2472,7 +2514,9 @@
 					"page": 136
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -2595,6 +2639,9 @@
 				"A",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -2615,7 +2662,9 @@
 					"page": 170
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -2813,6 +2862,12 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -2834,7 +2889,9 @@
 					"page": 119
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -2985,7 +3042,9 @@
 					"page": 122
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -3122,7 +3181,9 @@
 					"page": 143
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -3330,7 +3391,9 @@
 					"page": 211
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -3470,7 +3533,9 @@
 					"page": 123
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"alignment": [
 				"N",
@@ -3635,6 +3700,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -3654,7 +3722,9 @@
 					"page": 120
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -3787,7 +3857,9 @@
 					"page": 160
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -3881,7 +3953,7 @@
 				{
 					"name": "Ice Walk",
 					"entries": [
-						"The hag can move across and climb icy surfaces without needing to make an ability check, and difficult terrain composed of ice or snow doesn't cost the hag extra moment."
+						"The hag can move across and climb icy surfaces without needing to make an ability check, and {@quickref difficult terrain||3} composed of ice or snow doesn't cost the hag extra moment."
 					]
 				}
 			],
@@ -3933,6 +4005,10 @@
 				"B",
 				"C"
 			],
+			"damageTagsSpell": [
+				"B",
+				"C"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -3956,7 +4032,9 @@
 					"page": 160
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -4119,7 +4197,9 @@
 					"page": 211
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -4276,7 +4356,9 @@
 					"page": 161
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -4460,7 +4542,9 @@
 					"page": 127
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -4610,7 +4694,9 @@
 					"page": 128
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -4660,7 +4746,7 @@
 				{
 					"name": "Oil Puddle",
 					"entries": [
-						"The boggle creates a puddle of nonflammable oil. The puddle is 1 inch deep and covers the ground in the boggle's space. The puddle is difficult terrain for all creatures except boggles and lasts for 1 hour. The oil has one of the following additional effects of the boggle's choice:",
+						"The boggle creates a puddle of nonflammable oil. The puddle is 1 inch deep and covers the ground in the boggle's space. The puddle is {@quickref difficult terrain||3} for all creatures except boggles and lasts for 1 hour. The oil has one of the following additional effects of the boggle's choice:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -4757,7 +4843,9 @@
 					"page": 121
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -4909,7 +4997,9 @@
 					"page": 139
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -4990,7 +5080,9 @@
 					"page": 131
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -5107,7 +5199,9 @@
 					"page": 122
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -5252,7 +5346,9 @@
 					"page": 247
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -5415,7 +5511,9 @@
 					"page": 129
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -5506,7 +5604,9 @@
 					"page": 130
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -5619,7 +5719,9 @@
 					"page": 212
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -5732,7 +5834,9 @@
 					"page": 131
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -5856,7 +5960,9 @@
 					"page": 123
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -5972,7 +6078,9 @@
 					"page": 132
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -6143,7 +6251,9 @@
 					"page": 125
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -6261,7 +6371,9 @@
 					"page": 125
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -6395,7 +6507,9 @@
 					"page": 126
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -6536,7 +6650,9 @@
 					"page": 126
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -6652,7 +6768,9 @@
 					"page": 146
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -6812,7 +6930,9 @@
 					"page": 212
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -6924,6 +7044,9 @@
 			"damageTags": [
 				"O"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"conditionInflictSpell": [
 				"restrained"
 			],
@@ -6940,7 +7063,9 @@
 					"page": 127
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "plant",
 			"alignment": [
 				"C",
@@ -7068,7 +7193,9 @@
 					"page": 133
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "aberration",
 			"alignment": [
 				"U"
@@ -7155,7 +7282,9 @@
 					"page": 134
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -7268,7 +7397,9 @@
 					"page": 134
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -7386,7 +7517,9 @@
 					"page": 124
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -7517,7 +7650,9 @@
 					"page": 128
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -7660,6 +7795,10 @@
 			"damageTags": [
 				"N"
 			],
+			"damageTagsSpell": [
+				"A",
+				"C"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -7680,7 +7819,9 @@
 					"page": 129
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -7832,6 +7973,9 @@
 			"damageTags": [
 				"N"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -7854,7 +7998,9 @@
 					"page": 129
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -8011,7 +8157,9 @@
 					"page": 208
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -8093,7 +8241,9 @@
 					"page": 135
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -8233,7 +8383,9 @@
 					"page": 139
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -8336,7 +8488,9 @@
 					"page": 144
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -8548,6 +8702,9 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -8575,7 +8732,9 @@
 					"page": 158
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -8686,7 +8845,9 @@
 					"page": 159
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -8823,7 +8984,9 @@
 					"page": 138
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -8946,7 +9109,9 @@
 					"page": 248
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -9108,7 +9273,9 @@
 					"page": 139
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -9180,7 +9347,9 @@
 					"page": 243
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -9318,7 +9487,9 @@
 					"page": 213
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -9434,6 +9605,9 @@
 				"R",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"L"
+			],
 			"miscTags": [
 				"AOE"
 			],
@@ -9453,7 +9627,9 @@
 					"page": 208
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -9531,7 +9707,9 @@
 			"name": "Dolphin Delighter",
 			"source": "MPMM",
 			"page": 97,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -9653,7 +9831,9 @@
 					"page": 141
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -9801,7 +9981,9 @@
 					"page": 182
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -9974,6 +10156,10 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"O",
+				"P"
+			],
 			"miscTags": [
 				"MW",
 				"RW"
@@ -9999,7 +10185,9 @@
 					"page": 183
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10142,6 +10330,10 @@
 				"O",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -10161,7 +10353,9 @@
 					"page": 184
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10336,7 +10530,9 @@
 					"page": 184
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10524,7 +10720,9 @@
 					"page": 186
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10730,6 +10928,9 @@
 				"R",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"S"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -10760,7 +10961,9 @@
 					"page": 187
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -10939,7 +11142,9 @@
 					"page": 188
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11108,7 +11313,9 @@
 					"page": 188
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -11235,7 +11442,9 @@
 					"page": 189
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11371,7 +11580,9 @@
 					"page": 189
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11515,7 +11726,9 @@
 					"page": 190
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -11635,7 +11848,9 @@
 					"page": 190
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11751,7 +11966,9 @@
 					"page": 191
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -11894,7 +12111,9 @@
 					"page": 192
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12047,7 +12266,9 @@
 					"page": 193
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -12175,7 +12396,9 @@
 					"page": 132
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -12273,7 +12496,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The dybbuk can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The dybbuk can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -12332,6 +12555,10 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"O",
+				"Y"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -12351,7 +12578,9 @@
 					"page": 202
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -12463,7 +12692,9 @@
 					"page": 194
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"A"
@@ -12538,7 +12769,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object other than a {@creature sacred statue|MPMM}."
+						"The eidolon can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object other than a {@creature sacred statue|MPMM}."
 					]
 				},
 				{
@@ -12613,7 +12844,9 @@
 					"page": 173
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -12828,7 +13061,9 @@
 					"page": 219
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "ooze",
 			"alignment": [
 				"L",
@@ -12977,6 +13212,9 @@
 				"B",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -13007,7 +13245,9 @@
 					"page": 200
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -13190,7 +13430,9 @@
 					"page": 213
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -13312,7 +13554,9 @@
 					"page": 214
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -13415,6 +13659,11 @@
 			"damageTags": [
 				"O"
 			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"L"
+			],
 			"miscTags": [
 				"AOE"
 			],
@@ -13434,7 +13683,9 @@
 					"page": 238
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -13534,7 +13785,9 @@
 					"page": 203
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -13663,7 +13916,9 @@
 					"page": 147
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"L",
@@ -13782,7 +14037,9 @@
 					"page": 143
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -13913,7 +14170,9 @@
 					"page": 142
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -14017,7 +14276,9 @@
 					"page": 144
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"U"
@@ -14132,7 +14393,9 @@
 					"page": 153
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -14270,7 +14533,9 @@
 					"page": 146
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -14331,7 +14596,8 @@
 						"piercing",
 						"slashing"
 					],
-					"note": "that is nonmagical"
+					"note": "that is nonmagical",
+					"cond": true
 				}
 			],
 			"conditionImmune": [
@@ -14457,6 +14723,15 @@
 				"O",
 				"Y"
 			],
+			"damageTagsLegendary": [
+				"Y"
+			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S",
+				"Y"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -14485,7 +14760,9 @@
 					"page": 145
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -14616,7 +14893,9 @@
 					"page": 148
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -14755,7 +15034,9 @@
 					"page": 223
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "elemental",
 			"alignment": [
 				"U"
@@ -14880,7 +15161,9 @@
 					"page": 125
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -15060,7 +15343,9 @@
 					"page": 126
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -15226,7 +15511,9 @@
 					"page": 173
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -15443,6 +15730,15 @@
 				"I",
 				"O"
 			],
+			"damageTagsLegendary": [
+				"C"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -15472,7 +15768,9 @@
 					"page": 143
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"U"
@@ -15558,7 +15856,9 @@
 					"page": 204
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -15674,7 +15974,9 @@
 					"page": 152
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -15767,7 +16069,9 @@
 					"page": 205
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -15889,6 +16193,10 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -15912,7 +16220,9 @@
 					"page": 205
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -16058,7 +16368,9 @@
 					"page": 206
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -16203,6 +16515,10 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"B",
+				"O"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -16225,7 +16541,9 @@
 					"page": 207
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -16395,7 +16713,9 @@
 					"page": 208
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -16538,7 +16858,9 @@
 					"page": 154
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -16649,7 +16971,9 @@
 					"page": 154
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -16764,7 +17088,9 @@
 					"page": 155
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -16891,7 +17217,9 @@
 					"page": 209
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -16999,7 +17327,9 @@
 					"page": 149
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -17216,7 +17546,9 @@
 					"page": 162
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -17369,6 +17701,11 @@
 				"I",
 				"O"
 			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -17392,7 +17729,9 @@
 					"page": 156
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -17663,7 +18002,9 @@
 					"page": 157
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -17948,7 +18289,9 @@
 					"page": 157
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -18125,6 +18468,9 @@
 				"I",
 				"P"
 			],
+			"damageTagsSpell": [
+				"P"
+			],
 			"miscTags": [
 				"MW",
 				"RNG",
@@ -18253,7 +18599,9 @@
 					"page": 91
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"U"
@@ -18483,7 +18831,9 @@
 					"page": 140
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -18554,7 +18904,9 @@
 					"page": 165
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -18727,7 +19079,9 @@
 					"page": 161
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -18846,6 +19200,10 @@
 				"B",
 				"O"
 			],
+			"damageTagsSpell": [
+				"F",
+				"L"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -18865,7 +19223,9 @@
 					"page": 162
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -19010,7 +19370,9 @@
 					"page": 210
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fiend",
 			"alignment": [
 				"C",
@@ -19141,7 +19503,9 @@
 					"page": 232
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -19260,7 +19624,9 @@
 					"page": 175
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -19477,6 +19843,13 @@
 				"O",
 				"T"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"L",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -19503,7 +19876,9 @@
 					"page": 249
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -19677,6 +20052,9 @@
 				"O",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -19698,7 +20076,9 @@
 					"page": 214
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -19802,6 +20182,9 @@
 			"damageTags": [
 				"Y"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"conditionInflictSpell": [
 				"invisible"
 			],
@@ -19819,7 +20202,9 @@
 					"page": 151
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -20014,6 +20399,9 @@
 				"A",
 				"I"
 			],
+			"damageTagsLegendary": [
+				"F"
+			],
 			"miscTags": [
 				"MW",
 				"RCH",
@@ -20044,7 +20432,9 @@
 					"page": 163
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "celestial",
 			"alignment": [
 				"L",
@@ -20238,7 +20628,9 @@
 					"page": 165
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "dragon",
 			"alignment": [
 				"A"
@@ -20367,7 +20759,9 @@
 					"page": 166
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -20544,7 +20938,9 @@
 					"page": 167
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -20687,7 +21083,9 @@
 					"page": 168
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -20826,6 +21224,9 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"miscTags": [
 				"MW",
 				"RW"
@@ -20850,7 +21251,9 @@
 					"page": 215
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -20967,6 +21370,9 @@
 				"L",
 				"T"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"conditionInflict": [
 				"frightened",
 				"prone"
@@ -20988,7 +21394,9 @@
 					"page": 212
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -21113,7 +21521,9 @@
 					"page": 169
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -21237,7 +21647,9 @@
 					"page": 198
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -21403,7 +21815,9 @@
 					"page": 232
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -21529,7 +21943,9 @@
 					"page": 233
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -21654,7 +22070,9 @@
 					"page": 238
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -21754,7 +22172,9 @@
 					"page": 216
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -21881,7 +22301,9 @@
 					"page": 213
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -22053,7 +22475,9 @@
 					"page": 216
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -22176,7 +22600,9 @@
 					"page": 133
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -22330,7 +22756,9 @@
 					"page": 137
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -22436,7 +22864,9 @@
 					"page": 214
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -22544,7 +22974,9 @@
 					"page": 170
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"N",
@@ -22659,7 +23091,9 @@
 					"page": 166
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -22805,7 +23239,9 @@
 					"page": 250
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -22963,6 +23399,9 @@
 			"damageTags": [
 				"F"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -22988,7 +23427,9 @@
 					"page": 176
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -23093,7 +23534,7 @@
 								{
 									"name": "3: Psychic Ray",
 									"entries": [
-										"The target must succeed on a {@dc 13} Intelligence saving throw or take T1 ({@damage 6d8}) psychic damage."
+										"The target must succeed on a {@dc 13} Intelligence saving throw or take 27 ({@damage 6d8}) psychic damage."
 									],
 									"type": "item"
 								},
@@ -23171,7 +23612,9 @@
 					"page": 177
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -23371,6 +23814,12 @@
 				"T",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -23392,7 +23841,9 @@
 					"page": 134
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -23592,6 +24043,9 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"L"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -23612,7 +24066,9 @@
 					"page": 177
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -23760,6 +24216,10 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"L",
+				"O"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -23783,7 +24243,9 @@
 					"page": 149
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "giant",
 				"tags": [
@@ -23908,7 +24370,9 @@
 					"page": 135
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -24067,7 +24531,9 @@
 					"page": 215
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -24210,6 +24676,11 @@
 				"B",
 				"N"
 			],
+			"damageTagsSpell": [
+				"F",
+				"O",
+				"Y"
+			],
 			"miscTags": [
 				"AOE",
 				"MW"
@@ -24235,7 +24706,9 @@
 					"page": 167
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -24398,7 +24871,9 @@
 					"page": 217
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -24515,6 +24990,11 @@
 			"damageTags": [
 				"N"
 			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O"
+			],
 			"conditionInflictSpell": [
 				"restrained"
 			],
@@ -24531,7 +25011,9 @@
 					"page": 180
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -24663,7 +25145,9 @@
 					"page": 179
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -24751,7 +25235,9 @@
 					"page": 180
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -24912,6 +25398,11 @@
 				"N",
 				"P"
 			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"O"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -24936,7 +25427,9 @@
 					"page": 181
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -25046,6 +25539,9 @@
 				"B",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -25073,7 +25569,9 @@
 					"page": 216
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -25215,7 +25713,9 @@
 					"page": 182
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -25356,7 +25856,9 @@
 					"page": 168
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -25467,7 +25969,9 @@
 					"page": 217
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "ooze",
 			"alignment": [
 				"L",
@@ -25565,7 +26069,9 @@
 					"page": 220
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -25673,7 +26179,9 @@
 					"page": 220
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -25761,7 +26269,9 @@
 					"page": 221
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -25843,8 +26353,7 @@
 			],
 			"conditionInflict": [
 				"prone",
-				"stunned",
-				"unconscious"
+				"stunned"
 			],
 			"hasToken": true,
 			"hasFluff": true
@@ -25859,7 +26368,9 @@
 					"page": 221
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -25947,7 +26458,9 @@
 					"page": 251
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -26117,6 +26630,9 @@
 				"N",
 				"S"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"miscTags": [
 				"AOE",
 				"MW"
@@ -26142,7 +26658,9 @@
 					"page": 153
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -26372,6 +26890,9 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"N"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -26390,7 +26911,9 @@
 					"page": 169
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -26594,7 +27117,9 @@
 					"page": 208
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -26665,7 +27190,9 @@
 					"page": 199
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -26844,7 +27371,9 @@
 					"page": 140
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -26929,7 +27458,9 @@
 					"page": 187
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -27033,7 +27564,9 @@
 					"page": 160
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -27207,7 +27740,9 @@
 					"page": 188
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "fey",
 			"alignment": [
 				"C",
@@ -27324,7 +27859,9 @@
 					"page": 222
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -27471,6 +28008,9 @@
 				"O",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -27494,7 +28034,9 @@
 					"page": 244
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -27605,7 +28147,9 @@
 					"page": 136
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -27705,7 +28249,9 @@
 					"page": 194
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				{
@@ -27853,7 +28399,9 @@
 					"page": 189
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -27990,7 +28538,9 @@
 					"page": 224
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -28148,7 +28698,9 @@
 					"page": 225
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -28308,7 +28860,9 @@
 					"page": 226
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -28458,6 +29012,9 @@
 				"P",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"N"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -28480,7 +29037,9 @@
 					"page": 190
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -28587,7 +29146,9 @@
 					"page": 190
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -28701,7 +29262,9 @@
 					"page": 137
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -28835,7 +29398,9 @@
 					"page": 137
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -28935,7 +29500,7 @@
 				{
 					"name": "Contamination",
 					"entries": [
-						"The sibriex emits an aura of corruption 30 feet in every direction. Vegetation withers in the aura, and the ground in the aura is difficult terrain for other creatures. Any creature that starts its turn in the aura must succeed on a {@dc 20} Constitution saving throw or take 14 ({@damage 4d6}) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
+						"The sibriex emits an aura of corruption 30 feet in every direction. Vegetation withers in the aura, and the ground in the aura is {@quickref difficult terrain||3} for other creatures. Any creature that starts its turn in the aura must succeed on a {@dc 20} Constitution saving throw or take 14 ({@damage 4d6}) poison damage. A creature that succeeds on the save is immune to this sibriex's Contamination for 24 hours."
 					]
 				},
 				{
@@ -29130,6 +29695,9 @@
 				"I",
 				"O"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -29156,7 +29724,9 @@
 					"page": 227
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -29277,7 +29847,9 @@
 					"page": 230
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -29465,6 +30037,11 @@
 				"B",
 				"N"
 			],
+			"damageTagsSpell": [
+				"C",
+				"I",
+				"O"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -29484,7 +30061,9 @@
 					"page": 191
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "ooze",
 			"alignment": [
 				"C",
@@ -29632,7 +30211,9 @@
 					"page": 192
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -29755,7 +30336,9 @@
 					"page": 244
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -29823,7 +30406,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The troll can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The troll can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -29899,7 +30482,9 @@
 					"page": 196
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -30063,7 +30648,9 @@
 					"page": 234
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -30146,7 +30733,9 @@
 					"page": 234
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -30271,7 +30860,9 @@
 					"page": 235
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -30466,7 +31057,9 @@
 					"page": 236
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"C",
@@ -30589,7 +31182,9 @@
 					"page": 236
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N",
@@ -30659,7 +31254,7 @@
 				{
 					"name": "Out-Of-Phase Movement",
 					"entries": [
-						"The seer can move through other creatures and objects as if they were difficult terrain, and its movement doesn't provoke {@action opportunity attack||opportunity attacks}.",
+						"The seer can move through other creatures and objects as if they were {@quickref difficult terrain||3}, and its movement doesn't provoke {@action opportunity attack||opportunity attacks}.",
 						"Each creature it moves through takes 5 ({@damage 1d10}) psychic damage; no creature can take this damage more than once per turn.",
 						"The seer takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
@@ -30744,7 +31339,9 @@
 					"page": 239
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -30896,6 +31493,9 @@
 				"O",
 				"T"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"miscTags": [
 				"AOE",
 				"MW"
@@ -30916,7 +31516,9 @@
 					"page": 140
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -30985,7 +31587,9 @@
 					"page": 208
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -31070,7 +31674,9 @@
 					"page": 240
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -31182,7 +31788,9 @@
 					"page": 150
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -31311,7 +31919,9 @@
 					"page": 151
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -31480,7 +32090,9 @@
 					"page": 196
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -31629,7 +32241,9 @@
 					"page": 133
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "aberration",
 				"swarmSize": "T"
@@ -31771,7 +32385,9 @@
 					"page": 208
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "beast",
 				"swarmSize": "T"
@@ -31867,7 +32483,9 @@
 					"page": 217
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -31976,7 +32594,9 @@
 					"page": 241
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -32128,7 +32748,9 @@
 					"page": 241
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -32252,7 +32874,9 @@
 					"page": 186
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -32390,7 +33014,9 @@
 					"page": 197
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"N"
@@ -32492,7 +33118,9 @@
 					"page": 179
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -32693,6 +33321,11 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -32720,7 +33353,9 @@
 					"page": 193
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -32830,7 +33465,9 @@
 					"page": 242
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -32890,7 +33527,7 @@
 				{
 					"name": "Light Crossbow",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 80/320ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+						"{@atk rw} {@hit 2} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
 					]
 				},
 				{
@@ -32937,7 +33574,9 @@
 					"page": 242
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -33050,6 +33689,9 @@
 			"damageTags": [
 				"S"
 			],
+			"damageTagsSpell": [
+				"T"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -33069,7 +33711,9 @@
 					"page": 218
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -33210,6 +33854,9 @@
 			"damageTags": [
 				"A"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"conditionInflictSpell": [
 				"restrained"
 			],
@@ -33226,7 +33873,9 @@
 					"page": 194
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -33321,7 +33970,9 @@
 					"page": 175
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "aberration",
 				"tags": [
@@ -33465,6 +34116,9 @@
 				"P",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -33498,7 +34152,9 @@
 					"page": 246
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"C",
@@ -33646,7 +34302,9 @@
 					"page": 195
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "fiend",
 			"alignment": [
 				"C",
@@ -33752,7 +34410,9 @@
 					"page": 196
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"alignment": [
 				"N"
@@ -33862,7 +34522,9 @@
 					"page": 197
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "plant",
 			"alignment": [
 				"N"
@@ -33992,7 +34654,9 @@
 					"page": 140
 				}
 			],
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": {
 				"type": "beast",
 				"tags": [
@@ -34090,7 +34754,9 @@
 					"page": 245
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -34221,7 +34887,9 @@
 					"page": 218
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -34338,6 +35006,10 @@
 				"B",
 				"R"
 			],
+			"damageTagsSpell": [
+				"F",
+				"R"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -34362,7 +35034,9 @@
 					"page": 219
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -34484,6 +35158,9 @@
 				"P",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"spellcastingTags": [
 				"CL"
 			],
@@ -34509,7 +35186,9 @@
 					"page": 219
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -34649,6 +35328,11 @@
 				"F",
 				"N"
 			],
+			"damageTagsSpell": [
+				"B",
+				"P",
+				"S"
+			],
 			"spellcastingTags": [
 				"CL"
 			],
@@ -34669,7 +35353,9 @@
 					"page": 220
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -34823,7 +35509,9 @@
 					"page": 220
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid"
 			},
@@ -34959,7 +35647,9 @@
 					"page": 139
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -35078,7 +35768,7 @@
 				{
 					"name": "Undertow",
 					"entries": [
-						"If the wastrilith is underwater, it causes all water within 60 feet of it to be difficult terrain for other creatures until the start of its next turn."
+						"If the wastrilith is underwater, it causes all water within 60 feet of it to be {@quickref difficult terrain||3} for other creatures until the start of its next turn."
 					]
 				}
 			],
@@ -35132,7 +35822,9 @@
 					"page": 203
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -35245,7 +35937,9 @@
 					"page": 163
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -35411,7 +36105,9 @@
 					"page": 197
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "fey",
 				"tags": [
@@ -35574,7 +36270,9 @@
 					"page": 198
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "plant",
 			"alignment": [
 				"L",
@@ -35701,7 +36399,9 @@
 					"page": 233
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -35794,7 +36494,9 @@
 					"page": 200
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -35898,7 +36600,9 @@
 					"page": 200
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -36018,6 +36722,9 @@
 				"I",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -36037,7 +36744,9 @@
 					"page": 252
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -36210,6 +36919,9 @@
 				"N",
 				"O"
 			],
+			"damageTagsSpell": [
+				"L"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -36234,7 +36946,9 @@
 					"page": 155
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -36443,6 +37157,9 @@
 				"A",
 				"O"
 			],
+			"damageTagsLegendary": [
+				"P"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -36472,7 +37189,9 @@
 					"page": 201
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "fey",
 			"alignment": [
 				"N",
@@ -36601,7 +37320,9 @@
 					"page": 211
 				}
 			],
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -36651,7 +37372,7 @@
 				{
 					"name": "Tunneler",
 					"entries": [
-						"The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2V2-foot-diameter tunnel in its wake."
+						"The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2½-foot-diameter tunnel in its wake."
 					]
 				}
 			],
@@ -36701,7 +37422,9 @@
 					"page": 202
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -36895,7 +37618,9 @@
 					"page": 203
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -37020,7 +37745,9 @@
 					"page": 204
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -37208,7 +37935,9 @@
 					"page": 205
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -37404,7 +38133,9 @@
 					"page": 206
 				}
 			],
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -37590,7 +38321,9 @@
 					"page": 201
 				}
 			],
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N"
@@ -37702,7 +38435,7 @@
 				{
 					"name": "Earth-Shaking Movement",
 					"entries": [
-						"After moving at least 10 feet on the ground, the zaratan sends a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 minute. Each creature on the ground that is concentrating must succeed on a {@dc 25} Constitution saving throw or the creature's concentration is broken. The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition prone}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Strength ({@skill Athletics}) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become trapped."
+						"After moving at least 10 feet on the ground, the zaratan sends a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes {@quickref difficult terrain||3} for 1 minute. Each creature on the ground that is concentrating must succeed on a {@dc 25} Constitution saving throw or the creature's concentration is broken. The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a {@dc 25} Dexterity saving throw. On a failed save, the creature takes 17 ({@damage 5d6}) bludgeoning damage, is knocked {@condition prone}, and is trapped in the rubble. A trapped creature is {@condition restrained}, requiring a successful {@dc 20} Strength ({@skill Athletics}) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become trapped."
 					]
 				}
 			],
@@ -37796,7 +38529,9 @@
 					"page": 180
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -37995,6 +38730,16 @@
 				"O",
 				"R"
 			],
+			"damageTagsLegendary": [
+				"F"
+			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"N",
+				"P",
+				"S"
+			],
 			"miscTags": [
 				"MW",
 				"RCH"
@@ -38024,7 +38769,9 @@
 					"page": 157
 				}
 			],
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "fiend",
 				"tags": [
@@ -38205,6 +38952,9 @@
 			],
 			"damageTags": [
 				"I"
+			],
+			"damageTagsSpell": [
+				"O"
 			],
 			"miscTags": [
 				"AOE",

@@ -16,7 +16,8 @@ class Omnidexer {
 		 *   s: "PHB", // source
 		 *   u: "spell name_phb, // hash
 		 *   uh: "spell name_phb, // Optional; hash for href if the link should be different from the hover lookup hash.
-		 *   p: 110, // page
+		 *   p: 110, // page number
+		 *   [q: "bestiary.html", // page; synthetic property only used by search widget]
 		 *   h: 1 // if isHover enabled, otherwise undefined
 		 *   r: 1 // if SRD
 		 *   c: 10, // category ID
@@ -847,7 +848,7 @@ class IndexableFileQuickReference extends IndexableFile {
 		this._walker = MiscUtil.getWalker();
 	}
 
-	static getChapterNameMetas (it) {
+	static getChapterNameMetas (it, {isRequireQuickrefFlag = true} = {}) {
 		const trackedNames = [];
 		const renderer = Renderer.get().setDepthTracker(trackedNames);
 		renderer.render(it);
@@ -862,6 +863,8 @@ class IndexableFileQuickReference extends IndexableFile {
 
 		return trackedNames
 			.filter(it => {
+				if (!isRequireQuickrefFlag) return true;
+
 				if (!it.data) return false;
 				return it.data.quickref != null || it.data.quickrefIndex;
 			});
@@ -890,16 +893,15 @@ class IndexableFileQuickReference extends IndexableFile {
 	}
 
 	static _getDeepDoc (indexer, primary, nameMeta, alias) {
-		const hashParts = [
-			"bookref-quick",
-			primary.ix,
-			UrlUtil.encodeForHash(nameMeta.name.toLowerCase()),
-		];
-		if (nameMeta.ixBook) hashParts.push(nameMeta.ixBook);
+		const hash = UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_QUICKREF]({
+			name: nameMeta.name,
+			ixChapter: primary.ix,
+			ixHeader: nameMeta.ixBook,
+		});
 
 		return {
 			n: alias || nameMeta.name,
-			u: hashParts.join(HASH_PART_SEP),
+			u: hash,
 			s: indexer.getMetaId("s", nameMeta.source),
 			p: nameMeta.page,
 		};

@@ -4,7 +4,7 @@
 
 	"title": "Entry",
 	"description": "A recursively renderable object.",
-	"version": "1.5.4",
+	"version": "1.7.0",
 
 	"definitions" : {
 		"_arrayOfSpell": {
@@ -55,25 +55,16 @@
 		"entry": {
 			"type": "object",
 			"properties": {
-				"name": {
-					"type": "string"
-				},
-				"type": {
-					"type": "string"
-				},
-				"source": {
-					"type": "string"
-				},
+				"name": {"type": "string"},
+				"type": {"type": "string"},
+				"source": {"type": "string"},
+				"page": {"$ref": "util.json#/definitions/page"},
+				"srd": {"$ref": "util.json#/definitions/srd"},
 				"data": {
 					"description": "A generic object for storing special data for external use-cases. Keys prefixed with \"rd-\" should be added as \"data-\" HTML attributes when rendering to HTML.",
 					"type": "object"
 				},
-				"page": {
-					"type": "integer"
-				},
-				"id": {
-					"type": "string"
-				}
+				"id": {"type": "string"}
 			},
 			"$$ifSite": {
 				"required": [
@@ -83,15 +74,12 @@
 		},
 
 		"entrySection": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "section"},
-						"name": {
-							"type": "string"
-						},
 						"alias": {
 							"type": "array",
 							"items": {
@@ -104,18 +92,7 @@
 								"$ref": "#"
 							}
 						},
-						"data": {
-							"type": "object"
-						},
-						"page": {
-							"type": "integer"
-						},
-						"source": {
-							"type": "string"
-						},
-						"id": {
-							"type": "string"
-						}
+						"style": {"type": "string"}
 					},
 					"required": ["entries"],
 					"additionalProperties": false
@@ -123,14 +100,17 @@
 			]
 		},
 		"entryEntries": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "entries"},
-						"name": {
-							"type": "string"
+						"entries": {
+							"type": "array",
+							"items": {
+								"$ref": "#"
+							}
 						},
 						"alias": {
 							"type": "array",
@@ -138,24 +118,7 @@
 								"type": "string"
 							}
 						},
-						"entries": {
-							"type": "array",
-							"items": {
-								"$ref": "#"
-							}
-						},
-						"data": {
-							"type": "object"
-						},
-						"page": {
-							"type": "integer"
-						},
-						"source": {
-							"type": "string"
-						},
-						"id": {
-							"type": "string"
-						}
+						"style": {"type": "string"}
 					},
 					"required": ["entries"],
 					"additionalProperties": false
@@ -164,15 +127,12 @@
 		},
 		"$$ifBrew": {
 			"entryHomebrew": {
-				"allOf" : [
+				"type": "object",
+				"$$merge": [
 					{"$ref" : "#/definitions/entry"},
 					{
-						"type": "object",
 						"properties": {
 							"type": {"const": "homebrew"},
-							"name": {
-								"type": "string"
-							},
 							"entries": {
 								"type": "array",
 								"items": {
@@ -187,9 +147,6 @@
 								"items": {
 									"$ref": "#"
 								}
-							},
-							"data": {
-								"type": "object"
 							}
 						},
 						"additionalProperties": false
@@ -198,10 +155,10 @@
 			}
 		},
 		"entryQuote": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "quote"},
 						"entries": {
@@ -230,10 +187,10 @@
 			]
 		},
 		"entryInlineEntries": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "inline"},
 						"entries": {
@@ -249,10 +206,10 @@
 			]
 		},
 		"entryEntriesInlineEntries": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "inlineBlock"},
 						"entries": {
@@ -268,10 +225,10 @@
 			]
 		},
 		"entryOptions": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "options"},
 						"count": {
@@ -293,10 +250,10 @@
 			]
 		},
 		"entryTable": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "table"},
 						"caption": {"type" : "string"},
@@ -359,11 +316,7 @@
 							"items": {
 								"$ref": "#"
 							}
-						},
-						"data": {
-							"type": "object"
-						},
-						"page": {"type": "integer"}
+						}
 					},
 					"required": ["rows"],
 					"additionalProperties": false
@@ -372,10 +325,10 @@
 		},
 		"entryTableGroup": {
 			"description": "Used to group related tables together; has no effect on rendering.",
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "tableGroup"},
 						"tables": {
@@ -383,23 +336,18 @@
 							"items": {
 								"$ref": "#/definitions/entryTable"
 							}
-						},
-						"name": {
-							"type": "string"
-						},
-						"data": {
-							"type": "object"
 						}
 					},
+					"required": ["tables"],
 					"additionalProperties": false
 				}
 			]
 		},
 		"entryTableRow": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {
 							"const": "row"
@@ -414,19 +362,16 @@
 							}
 						}
 					},
-					"required": [
-						"type",
-						"row"
-					],
+					"required": ["row"],
 					"additionalProperties": false
 				}
 			]
 		},
 		"entryTableCell": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {
 							"const": "cell"
@@ -466,10 +411,10 @@
 			]
 		},
 		"entryList": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "list"},
 						"columns": {
@@ -488,9 +433,6 @@
 								"list-no-bullets"
 							]
 						},
-						"name": {
-							"type": "string"
-						},
 						"items": {
 							"type": "array",
 							"items": {
@@ -504,10 +446,10 @@
 			]
 		},
 		"entryBonus": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "bonus"},
 						"value": {
@@ -520,10 +462,10 @@
 			]
 		},
 		"entryBonusSpeed": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "bonusSpeed"},
 						"value": {
@@ -536,10 +478,10 @@
 			]
 		},
 		"entryDice": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "dice"},
 						"toRoll": {
@@ -565,29 +507,30 @@
 								"required": ["number", "faces"]
 							}
 						},
-                        "rollable": {
-                            "type": "boolean"
-                        }
+						"rollable": {
+							"type": "boolean"
+						}
 					},
 					"additionalProperties": false
 				}
 			]
 		},
 		"entryAbilityDc": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "abilityDc"},
-						"name": {
-							"type": "string"
-						},
 						"attributes": {
 							"type": "array",
 							"items": {
 								"type": "string",
-								"enum": ["str", "dex", "con", "int", "wis", "cha", "spellcasting"]
+								"$$ifSiteElse_key": {
+									"keySite": "enum",
+									"keyBrew": "examples",
+									"value": ["str", "dex", "con", "int", "wis", "cha", "spellcasting"]
+								}
 							}
 						}
 					},
@@ -597,15 +540,12 @@
 			]
 		},
 		"entryAbilityAttackMod": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "abilityAttackMod"},
-						"name": {
-							"type": "string"
-						},
 						"attributes": {
 							"type": "array",
 							"items": {
@@ -620,15 +560,12 @@
 			]
 		},
 		"abilityGeneric": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "abilityGeneric"},
-						"name": {
-							"type": "string"
-						},
 						"text": {
 							"type": "string"
 						},
@@ -646,10 +583,10 @@
 			]
 		},
 		"entryLink": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "link"},
 						"text": {
@@ -715,9 +652,7 @@
 										"hover": {
 											"type": "object",
 											"properties": {
-												"page": {
-													"type": "string"
-												},
+												"page": {"$ref": "util.json#/definitions/page"},
 												"source": {
 													"type": "string"
 												},
@@ -757,31 +692,13 @@
 		},
 		"entryOptFeature": {
 			"description": "For e.g. Eldritch Invocations which require prerequisite text",
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
-						"name": {
-							"type": "string"
-						},
 						"type": {"const": "optfeature"},
 						"prerequisite": {
-							"type": "string"
-						}
-					},
-					"required": ["name"]
-				}
-			]
-		},
-		"entryInset": {
-			"allOf" : [
-				{"$ref" : "#/definitions/entry"},
-				{
-					"type": "object",
-					"properties": {
-						"type": {"const": "inset"},
-						"name": {
 							"type": "string"
 						},
 						"entries": {
@@ -789,30 +706,38 @@
 							"items": {
 								"$ref": "#"
 							}
-						},
-						"data": {
-							"type": "object"
-						},
-						"page": {
-							"type": "integer"
-						},
-						"source": {
-							"type": "string"
-						},
-						"id": {
-							"type": "string"
+						}
+					},
+					"required": ["name"],
+					"additionalProperties": false
+				}
+			]
+		},
+		"entryInset": {
+			"type": "object",
+			"$$merge": [
+				{"$ref" : "#/definitions/entry"},
+				{
+					"properties": {
+						"type": {"const": "inset"},
+						"entries": {
+							"type": "array",
+							"items": {
+								"$ref": "#"
+							}
 						},
 						"style": {"type": "string"}
 					},
-					"required": ["entries"]
+					"required": ["entries"],
+					"additionalProperties": false
 				}
 			]
 		},
 		"entryInsetReadaloud": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "insetReadaloud"},
 						"entries": {
@@ -821,31 +746,20 @@
 								"$ref": "#"
 							}
 						},
-						"page": {
-							"type": "integer"
-						},
-						"source": {
-							"type": "string"
-						},
-						"id": {
-							"type": "string"
-						},
 						"style": {"type": "string"}
 					},
-					"required": ["entries"]
+					"required": ["entries"],
+					"additionalProperties": false
 				}
 			]
 		},
 		"entryVariant": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "variant"},
-						"name": {
-							"type": "string"
-						},
 						"entries": {
 							"type": "array",
 							"items": {
@@ -853,20 +767,18 @@
 							}
 						}
 					},
-					"required": ["name", "entries"]
+					"required": ["name", "entries"],
+					"additionalProperties": false
 				}
 			]
 		},
 		"entryVariantInner": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "variantInner"},
-						"name": {
-							"type": "string"
-						},
 						"entries": {
 							"type": "array",
 							"items": {
@@ -880,15 +792,12 @@
 			]
 		},
 		"entryVariantSub": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "variantSub"},
-						"name": {
-							"type": "string"
-						},
 						"entries": {
 							"type": "array",
 							"items": {
@@ -902,18 +811,15 @@
 			]
 		},
 		"entryItem": {
-			"allOf" : [
-				{"$ref" : "#/definitions/entry"},
+			"oneOf": [
 				{
-					"oneOf": [
+					"type": "object",
+					"$$merge": [
+						{"$ref" : "#/definitions/entry"},
 						{
-							"type": "object",
 							"properties": {
 								"type": {"const": "item"},
 								"style": {"type": "string"},
-								"name": {
-									"type": "string"
-								},
 								"entry": {
 									"$ref": "#"
 								},
@@ -923,15 +829,17 @@
 							},
 							"required": ["name", "entry"],
 							"additionalProperties": false
-						},
+						}
+					]
+				},
+				{
+					"type": "object",
+					"$$merge": [
+						{"$ref" : "#/definitions/entry"},
 						{
-							"type": "object",
 							"properties": {
 								"type": {"const": "item"},
 								"style": {"type": "string"},
-								"name": {
-									"type": "string"
-								},
 								"entries": {
 									"type": "array",
 									"items": {
@@ -950,15 +858,12 @@
 			]
 		},
 		"entryItemSub": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "itemSub"},
-						"name": {
-							"type": "string"
-						},
 						"entry": {
 							"$ref": "#"
 						},
@@ -972,15 +877,12 @@
 			]
 		},
 		"entryItemSpell": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "itemSpell"},
-						"name": {
-							"type": "string"
-						},
 						"entry": {
 							"$ref": "#"
 						}
@@ -991,10 +893,10 @@
 			]
 		},
 		"entryImage": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "image"},
 						"href": {
@@ -1117,10 +1019,10 @@
 			]
 		},
 		"entryGallery": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "gallery"},
 						"images": {
@@ -1136,14 +1038,12 @@
 			]
 		},
 		"entryActions": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
+				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "actions"},
-						"name": {
-							"type": "string"
-						},
 						"entries": {
 							"type": "array",
 							"items": {
@@ -1151,16 +1051,16 @@
 							}
 						}
 					},
-					"required": ["type", "name", "entries"],
+					"required": ["name", "entries"],
 					"additionalProperties": false
 				}
 			]
 		},
 		"entryAttack": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "attack"},
 						"attackType": {
@@ -1182,7 +1082,6 @@
 						}
 					},
 					"required": [
-						"type",
 						"attackType",
 						"attackEntries",
 						"hitEntries"
@@ -1192,10 +1091,10 @@
 			]
 		},
 		"entryFlowchart": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "flowchart"},
 						"blocks": {
@@ -1205,19 +1104,16 @@
 							}
 						}
 					},
-					"required": [
-						"type",
-						"blocks"
-					],
+					"required": ["blocks"],
 					"additionalProperties": false
 				}
 			]
 		},
 		"entryFlowBlock": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "flowBlock"},
 						"entries": {
@@ -1225,23 +1121,17 @@
 							"items": {
 								"$ref" : "#/definitions/entry"
 							}
-						},
-						"name": {
-							"type": "string"
 						}
 					},
-					"required": [
-						"type"
-					],
 					"additionalProperties": false
 				}
 			]
 		},
 		"entryIngredient": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "ingredient"},
 						"entry": {"$ref" : "#"}
@@ -1249,10 +1139,7 @@
 					"patternProperties": {
 						"^amount\\d+$": {"type": "number"}
 					},
-					"required": [
-						"type",
-						"entry"
-					],
+					"required": ["entry"],
 					"additionalProperties": false
 				}
 			]
@@ -1380,15 +1267,11 @@
 			]
 		},
 		"entrySpellcasting": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
-						"type": {"const": "spellcasting"},
-						"name": {
-							"type": "string"
-						},
 						"headerEntries": {
 							"type": "array",
 							"items": {
@@ -1505,9 +1388,7 @@
 							"description": "The UID of an item which provides the charges required to cast any \"charges\" spells."
 						}
 					},
-					"required": [
-						"name"
-					],
+					"required": ["name"],
 					"additionalProperties": false
 				}
 			]
@@ -1595,18 +1476,15 @@
 			"additionalProperties": false
 		},
 		"entryWrapped": {
-			"allOf" : [
+			"type": "object",
+			"$$merge": [
 				{"$ref" : "#/definitions/entry"},
 				{
-					"type": "object",
 					"properties": {
 						"type": {"const": "wrapper"},
 						"wrapped": {}
 					},
-					"required": [
-						"wrapper",
-						"wrapped"
-					],
+					"required": ["wrapped"],
 					"additionalProperties": false
 				}
 			]

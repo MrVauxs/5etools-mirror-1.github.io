@@ -162,7 +162,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 228,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -342,6 +344,16 @@
 			"damageTags": [
 				"B"
 			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"F",
+				"I",
+				"L",
+				"N",
+				"O",
+				"Y"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -356,7 +368,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 226,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -548,7 +562,9 @@
 			"name": "Barovian Witch",
 			"source": "CoS",
 			"page": 229,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -641,6 +657,13 @@
 				"C"
 			],
 			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"I",
 				"P",
 				"S"
 			],
@@ -742,7 +765,9 @@
 			"name": "Broom of Animated Attack",
 			"source": "CoS",
 			"page": 226,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -1060,7 +1085,8 @@
 				"average": 72,
 				"formula": "9d8 + 18"
 			},
-			"hasToken": true
+			"hasToken": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Escher",
@@ -1121,6 +1147,10 @@
 					"ability": "int"
 				}
 			],
+			"damageTagsLegendary": [],
+			"damageTagsSpell": [
+				"C"
+			],
 			"hasToken": true
 		},
 		{
@@ -1128,7 +1158,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 231,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1287,6 +1319,11 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"F",
+				"L",
+				"O"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -1348,7 +1385,9 @@
 			"name": "Guardian Portrait",
 			"source": "CoS",
 			"page": 227,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -1564,7 +1603,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 232,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1579,7 +1620,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -1910,6 +1951,7 @@
 					"ability": "wis"
 				}
 			],
+			"damageTagsSpell": [],
 			"hasToken": true
 		},
 		{
@@ -2028,7 +2070,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 233,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2183,6 +2227,13 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"B",
+				"F",
+				"N",
+				"O",
+				"R"
+			],
 			"spellcastingTags": [
 				"CC"
 			],
@@ -2320,7 +2371,9 @@
 			"name": "Mongrelfolk",
 			"source": "CoS",
 			"page": 234,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2534,7 +2587,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -2574,7 +2627,9 @@
 			"name": "Phantom Warrior",
 			"source": "CoS",
 			"page": 235,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"A"
@@ -2644,7 +2699,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The phantom warrior can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The phantom warrior can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -2697,6 +2752,42 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Phantom Warrior (Archer)",
+			"isNpc": true,
+			"source": "CoS",
+			"page": 142,
+			"_copy": {
+				"name": "Phantom Warrior",
+				"source": "CoS",
+				"_mod": {
+					"action": [
+						{
+							"mode": "appendArr",
+							"items": [
+								{
+									"name": "Spectral Longbow",
+									"entries": [
+										"{@atk rw} {@hit 2} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) force damage."
+									]
+								}
+							]
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Multiattack",
+							"items": {
+								"name": "Multiattack",
+								"entries": [
+									"The phantom warrior makes two attacks with its spectral longsword or spectral longbow."
+								]
+							}
+						}
+					]
+				}
+			},
+			"hasToken": true
+		},
+		{
 			"name": "Piccolo",
 			"isNpc": true,
 			"source": "CoS",
@@ -2720,7 +2811,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 236,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "construct",
 			"alignment": [
 				"N",
@@ -2808,7 +2901,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 237,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -2823,7 +2918,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -2957,7 +3052,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 238,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -3136,7 +3233,9 @@
 					}
 				}
 			},
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"alignment": [
 				"L",
 				"G"
@@ -3279,6 +3378,11 @@
 					"ability": "wis"
 				}
 			],
+			"damageTagsSpell": [
+				"R",
+				"T",
+				"Y"
+			],
 			"spellcastingTags": [
 				"CP"
 			],
@@ -3405,6 +3509,9 @@
 					"ability": "int"
 				}
 			],
+			"damageTagsSpell": [
+				"N"
+			],
 			"hasToken": true
 		},
 		{
@@ -3434,7 +3541,9 @@
 			"isNamedCreature": true,
 			"source": "CoS",
 			"page": 240,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -3687,6 +3796,14 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"N",
+				"P",
+				"S"
+			],
 			"spellcastingTags": [
 				"CW"
 			],
@@ -3707,7 +3824,9 @@
 			"name": "Strahd Zombie",
 			"source": "CoS",
 			"page": 241,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"U"
@@ -3806,7 +3925,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 227,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -4098,6 +4219,14 @@
 					"ability": "int"
 				}
 			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"F",
+				"L",
+				"O",
+				"P"
+			],
 			"hasToken": true
 		},
 		{
@@ -4121,7 +4250,9 @@
 					}
 				}
 			},
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"alignment": [
 				"L",
 				"G"
@@ -4148,7 +4279,9 @@
 					"source": "WBtW"
 				}
 			],
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "plant",
 			"alignment": [
 				"N",
@@ -4163,8 +4296,8 @@
 				}
 			],
 			"hp": {
-				"average": 149,
-				"formula": "13d12 + 65"
+				"average": 92,
+				"formula": "8d12 + 40"
 			},
 			"speed": {
 				"walk": 30
@@ -4461,7 +4594,9 @@
 			"isNpc": true,
 			"source": "CoS",
 			"page": 241,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "undead",
 			"alignment": [
 				"L",
@@ -4686,7 +4821,9 @@
 				"name": "Wereraven",
 				"source": "VRGR"
 			},
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"alignment": [
 				"L",
 				"G"

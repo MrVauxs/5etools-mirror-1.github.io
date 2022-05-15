@@ -7,7 +7,9 @@
 			],
 			"source": "FTD",
 			"page": 161,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -285,6 +287,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -310,7 +315,9 @@
 			],
 			"source": "FTD",
 			"page": 171,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -584,6 +591,9 @@
 				"R",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"R"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -605,7 +615,9 @@
 			"name": "Adult Deep Dragon",
 			"source": "FTD",
 			"page": 174,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -858,6 +870,9 @@
 				"S",
 				"Y"
 			],
+			"damageTagsLegendary": [
+				"I"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -882,7 +897,9 @@
 			],
 			"source": "FTD",
 			"page": 196,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -1169,6 +1186,9 @@
 				"S",
 				"Y"
 			],
+			"damageTagsLegendary": [
+				"Y"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -1188,7 +1208,9 @@
 			"name": "Adult Moonstone Dragon",
 			"source": "FTD",
 			"page": 212,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -1471,7 +1493,9 @@
 			],
 			"source": "FTD",
 			"page": 215,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -1759,6 +1783,13 @@
 				"S",
 				"T"
 			],
+			"damageTagsLegendary": [
+				"T"
+			],
+			"damageTagsSpell": [
+				"B",
+				"Y"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -1790,7 +1821,9 @@
 			],
 			"source": "FTD",
 			"page": 221,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -2064,6 +2097,12 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -2083,7 +2122,9 @@
 			],
 			"source": "FTD",
 			"page": 162,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -2312,7 +2353,9 @@
 			],
 			"source": "FTD",
 			"page": 201,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -2622,7 +2665,9 @@
 			],
 			"source": "FTD",
 			"page": 160,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -2903,6 +2948,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -2928,7 +2976,9 @@
 			],
 			"source": "FTD",
 			"page": 170,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -3203,6 +3253,9 @@
 				"R",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"R"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -3225,7 +3278,9 @@
 			"name": "Ancient Deep Dragon",
 			"source": "FTD",
 			"page": 173,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -3478,6 +3533,9 @@
 				"S",
 				"Y"
 			],
+			"damageTagsLegendary": [
+				"I"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -3499,7 +3557,9 @@
 			"name": "Ancient Dragon Turtle",
 			"source": "FTD",
 			"page": 191,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -3751,6 +3811,9 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"F"
+			],
 			"miscTags": [
 				"AOE",
 				"MW",
@@ -3773,7 +3836,9 @@
 			],
 			"source": "FTD",
 			"page": 195,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -4061,6 +4126,12 @@
 				"S",
 				"Y"
 			],
+			"damageTagsLegendary": [
+				"Y"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -4082,7 +4153,9 @@
 			"name": "Ancient Moonstone Dragon",
 			"source": "FTD",
 			"page": 211,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -4358,7 +4431,9 @@
 			],
 			"source": "FTD",
 			"page": 214,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -4647,6 +4722,13 @@
 				"S",
 				"T"
 			],
+			"damageTagsLegendary": [
+				"T"
+			],
+			"damageTagsSpell": [
+				"B",
+				"Y"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -4675,7 +4757,9 @@
 			"name": "Ancient Sea Serpent",
 			"source": "FTD",
 			"page": 219,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -4825,7 +4909,9 @@
 			],
 			"source": "FTD",
 			"page": 220,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -5100,6 +5186,12 @@
 				"P",
 				"S"
 			],
+			"damageTagsLegendary": [
+				"N"
+			],
+			"damageTagsSpell": [
+				"B"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -5116,7 +5208,9 @@
 			"name": "Animated Breath",
 			"source": "FTD",
 			"page": 163,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "elemental",
 			"alignment": [
 				"N",
@@ -5248,7 +5342,9 @@
 			"name": "Aspect of Bahamut",
 			"source": "FTD",
 			"page": 165,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -5473,7 +5569,9 @@
 			"name": "Aspect of Tiamat",
 			"source": "FTD",
 			"page": 166,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -5672,7 +5770,9 @@
 			],
 			"source": "FTD",
 			"page": 168,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -5950,7 +6050,9 @@
 			],
 			"source": "FTD",
 			"page": 168,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -6229,7 +6331,9 @@
 			],
 			"source": "FTD",
 			"page": 208,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -6541,7 +6645,9 @@
 			],
 			"source": "FTD",
 			"page": 208,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -6853,7 +6959,9 @@
 			],
 			"source": "FTD",
 			"page": 208,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -7165,7 +7273,9 @@
 			],
 			"source": "FTD",
 			"page": 172,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -7381,7 +7491,9 @@
 			],
 			"source": "FTD",
 			"page": 201,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -7688,7 +7800,9 @@
 			"name": "Deep Dragon Wyrmling",
 			"source": "FTD",
 			"page": 175,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -7885,7 +7999,9 @@
 			"name": "Dracohydra",
 			"source": "FTD",
 			"page": 176,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"C",
@@ -7992,7 +8108,9 @@
 			"name": "Draconian Dreadnought",
 			"source": "FTD",
 			"page": 177,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"A"
@@ -8101,7 +8219,9 @@
 			"name": "Draconian Foot Soldier",
 			"source": "FTD",
 			"page": 178,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"A"
@@ -8196,7 +8316,9 @@
 			"name": "Draconian Infiltrator",
 			"source": "FTD",
 			"page": 178,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"A"
@@ -8309,7 +8431,9 @@
 			"name": "Draconian Mage",
 			"source": "FTD",
 			"page": 179,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"A"
@@ -8435,7 +8559,9 @@
 			"name": "Draconian Mastermind",
 			"source": "FTD",
 			"page": 180,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"A"
@@ -8564,6 +8690,9 @@
 				"O",
 				"S"
 			],
+			"damageTagsSpell": [
+				"O"
+			],
 			"miscTags": [
 				"AOE",
 				"MW"
@@ -8583,7 +8712,9 @@
 			"name": "Draconic Shard",
 			"source": "FTD",
 			"page": 181,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"N"
@@ -8692,7 +8823,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The shard can move through creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 5 ({@damage 1d10}) force damage."
+						"The shard can move through creatures and objects as if they were {@quickref difficult terrain||3}. If it ends its turn inside an object, it takes 5 ({@damage 1d10}) force damage."
 					]
 				},
 				{
@@ -8809,7 +8940,9 @@
 			"source": "FTD",
 			"page": 21,
 			"summonedBySpell": "Summon Draconic Spirit|FTD",
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				{
@@ -8929,7 +9062,9 @@
 			"name": "Dragon Blessed",
 			"source": "FTD",
 			"page": 188,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -9028,6 +9163,10 @@
 				"B",
 				"R"
 			],
+			"damageTagsSpell": [
+				"F",
+				"R"
+			],
 			"miscTags": [
 				"MW"
 			],
@@ -9039,7 +9178,9 @@
 			"name": "Dragon Chosen",
 			"source": "FTD",
 			"page": 189,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -9135,7 +9276,9 @@
 			"name": "Dragon Speaker",
 			"source": "FTD",
 			"page": 189,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"A"
@@ -9252,7 +9395,9 @@
 			"name": "Dragon Turtle Wyrmling",
 			"source": "FTD",
 			"page": 192,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -9423,7 +9568,9 @@
 			"name": "Dragonblood Ooze",
 			"source": "FTD",
 			"page": 182,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "ooze",
 			"alignment": [
 				"U"
@@ -9547,7 +9694,9 @@
 			"name": "Dragonbone Golem",
 			"source": "FTD",
 			"page": 183,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"U"
@@ -9673,7 +9822,9 @@
 			"name": "Dragonborn of Bahamut",
 			"source": "FTD",
 			"page": 184,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"L",
@@ -9787,7 +9938,9 @@
 			"name": "Dragonborn of Sardior",
 			"source": "FTD",
 			"page": 185,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"N"
@@ -9909,6 +10062,10 @@
 				"P",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"B",
+				"O"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -9930,7 +10087,9 @@
 			"name": "Dragonborn of Tiamat",
 			"source": "FTD",
 			"page": 185,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "humanoid",
 			"alignment": [
 				"C",
@@ -10036,7 +10195,9 @@
 			"name": "Dragonflesh Abomination",
 			"source": "FTD",
 			"page": 187,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -10160,7 +10321,9 @@
 			"name": "Dragonflesh Grafter",
 			"source": "FTD",
 			"page": 186,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N",
@@ -10250,7 +10413,9 @@
 			"name": "Dragonnel",
 			"source": "FTD",
 			"page": 190,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -10341,7 +10506,9 @@
 			"name": "Drake Companion",
 			"source": "FTD",
 			"page": 15,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "dragon",
 			"ac": [
 				{
@@ -10416,7 +10583,9 @@
 			"name": "Egg Hunter Adult",
 			"source": "FTD",
 			"page": 193,
-			"size": "S",
+			"size": [
+				"S"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -10531,7 +10700,9 @@
 			"name": "Egg Hunter Hatchling",
 			"source": "FTD",
 			"page": 193,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -10628,7 +10799,9 @@
 			"name": "Elder Brain Dragon",
 			"source": "FTD",
 			"page": 194,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -10798,7 +10971,9 @@
 			],
 			"source": "FTD",
 			"page": 197,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -11022,7 +11197,9 @@
 			],
 			"source": "FTD",
 			"page": 201,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -11329,7 +11506,9 @@
 			"name": "Eyedrake",
 			"source": "FTD",
 			"page": 199,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "aberration",
 			"alignment": [
 				"L",
@@ -11493,7 +11672,9 @@
 			"name": "Gem Stalker",
 			"source": "FTD",
 			"page": 202,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -11647,7 +11828,9 @@
 			"name": "Ghost Dragon",
 			"source": "FTD",
 			"page": 203,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"A"
@@ -11719,7 +11902,7 @@
 				{
 					"name": "Incorporeal Movement",
 					"entries": [
-						"The ghost dragon can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+						"The ghost dragon can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
 					]
 				},
 				{
@@ -11802,7 +11985,9 @@
 			"name": "Giant Canary",
 			"source": "FTD",
 			"page": 23,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -11849,7 +12034,9 @@
 			],
 			"source": "FTD",
 			"page": 208,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -12169,7 +12356,9 @@
 			],
 			"source": "FTD",
 			"page": 168,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -12444,7 +12633,9 @@
 			"name": "Hoard Mimic",
 			"source": "FTD",
 			"page": 204,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -12569,7 +12760,9 @@
 			"name": "Hoard Scarab",
 			"source": "FTD",
 			"page": 205,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"
@@ -12649,7 +12842,9 @@
 			"name": "Hollow Dragon",
 			"source": "FTD",
 			"page": 206,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "undead",
 			"alignment": [
 				"A"
@@ -12815,7 +13010,9 @@
 			"name": "Liondrake",
 			"source": "FTD",
 			"page": 207,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"N"
@@ -12909,7 +13106,9 @@
 			"name": "Metallic Peacekeeper",
 			"source": "FTD",
 			"page": 210,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "construct",
 			"alignment": [
 				"N",
@@ -13025,7 +13224,9 @@
 			"name": "Metallic Warbler",
 			"source": "FTD",
 			"page": 210,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "construct",
 			"alignment": [
 				"N",
@@ -13134,7 +13335,9 @@
 			"name": "Moonstone Dragon Wyrmling",
 			"source": "FTD",
 			"page": 213,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -13328,7 +13531,9 @@
 			],
 			"source": "FTD",
 			"page": 168,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -13616,7 +13821,9 @@
 			],
 			"source": "FTD",
 			"page": 216,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -13857,7 +14064,9 @@
 			],
 			"source": "FTD",
 			"page": 201,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -14169,7 +14378,9 @@
 			],
 			"source": "FTD",
 			"page": 208,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -14480,7 +14691,9 @@
 			"name": "Swarm of Hoard Scarabs",
 			"source": "FTD",
 			"page": 205,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "monstrosity",
 				"swarmSize": "T"
@@ -14587,7 +14800,9 @@
 			],
 			"source": "FTD",
 			"page": 223,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -14804,7 +15019,9 @@
 			],
 			"source": "FTD",
 			"page": 201,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -15114,7 +15331,9 @@
 			],
 			"source": "FTD",
 			"page": 168,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -15392,7 +15611,9 @@
 			],
 			"source": "FTD",
 			"page": 161,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -15639,7 +15860,9 @@
 			],
 			"source": "FTD",
 			"page": 172,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -15878,7 +16101,9 @@
 			"name": "Young Deep Dragon",
 			"source": "FTD",
 			"page": 175,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N",
@@ -16095,7 +16320,9 @@
 			"name": "Young Dragon Turtle",
 			"source": "FTD",
 			"page": 192,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -16286,7 +16513,9 @@
 			],
 			"source": "FTD",
 			"page": 197,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -16533,7 +16762,9 @@
 			"name": "Young Moonstone Dragon",
 			"source": "FTD",
 			"page": 213,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -16762,7 +16993,9 @@
 			],
 			"source": "FTD",
 			"page": 216,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [
@@ -16999,6 +17232,10 @@
 				"S",
 				"T"
 			],
+			"damageTagsSpell": [
+				"B",
+				"Y"
+			],
 			"spellcastingTags": [
 				"P"
 			],
@@ -17022,7 +17259,9 @@
 			"name": "Young Sea Serpent",
 			"source": "FTD",
 			"page": 219,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "dragon",
 			"alignment": [
 				"N"
@@ -17151,7 +17390,9 @@
 			],
 			"source": "FTD",
 			"page": 223,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": {
 				"type": "dragon",
 				"tags": [

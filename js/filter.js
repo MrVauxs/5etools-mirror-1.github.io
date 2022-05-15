@@ -77,6 +77,14 @@ class PageFilter {
 			},
 		});
 	}
+
+	static _isReprinted ({reprintedAs, tag, page, prop}) {
+		return reprintedAs?.length && reprintedAs.some(it => {
+			const {name, source} = DataUtil.generic.unpackUid(it?.uid ?? it, tag);
+			const hash = UrlUtil.URL_TO_HASH_BUILDER[page]({name, source});
+			return !ExcludeUtil.isExcluded(hash, prop, source, {isNoCount: true});
+		});
+	}
 	// endregion
 }
 
@@ -617,11 +625,15 @@ class FilterBox extends ProxyBase {
 		const $btnCombineFilterSettings = $(`<button class="btn btn-xs btn-default"><span class="glyphicon glyphicon-cog"></span></button>`)
 			.click(() => this._openCombineAsModal());
 
-		const $btnCombineFiltersAs = $(`<button class="btn btn-xs btn-default"></button>`)
-			.appendTo($wrpBtnCombineFilters)
-			.click(() => this._meta.modeCombineFilters = FilterBox._COMBINE_MODES.getNext(this._meta.modeCombineFilters));
+		const btnCombineFiltersAs = e_({
+			tag: "button",
+			clazz: `btn btn-xs btn-default`,
+			click: () => this._meta.modeCombineFilters = FilterBox._COMBINE_MODES.getNext(this._meta.modeCombineFilters),
+			title: `"AND" requires every filter to match. "OR" requires any filter to match. "Custom" allows you to specify a combination (every "AND" filter must match; only one "OR" filter must match) .`,
+		}).appendTo($wrpBtnCombineFilters[0]);
+
 		const hook = () => {
-			$btnCombineFiltersAs.text(this._meta.modeCombineFilters === "custom" ? this._meta.modeCombineFilters.uppercaseFirst() : this._meta.modeCombineFilters.toUpperCase());
+			btnCombineFiltersAs.innerText = this._meta.modeCombineFilters === "custom" ? this._meta.modeCombineFilters.uppercaseFirst() : this._meta.modeCombineFilters.toUpperCase();
 			if (this._meta.modeCombineFilters === "custom") $wrpBtnCombineFilters.append($btnCombineFilterSettings);
 			else $btnCombineFilterSettings.detach();
 			this._doSaveStateThrottled();
@@ -841,9 +853,9 @@ class FilterBox extends ProxyBase {
 		Hist.setSuppressHistory(true);
 		Hist.replaceHistoryHash(`${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`);
 
-		if (filterInitialSearch && ($iptSearch || this._$iptSearch)) ($iptSearch || this._$iptSearch).val(filterInitialSearch).change().keydown().keyup();
+		if (filterInitialSearch && ($iptSearch || this._$iptSearch)) ($iptSearch || this._$iptSearch).val(filterInitialSearch).change().keydown().keyup().trigger("instantKeyup");
 		this.fireChangeEvent();
-		Hist.hashChange();
+		Hist.hashChange({isBlankFilterLoad: true});
 		return outSub;
 	}
 
@@ -1095,12 +1107,9 @@ class FilterBase extends BaseComponent {
 	}
 
 	getMetaSubHashes () {
-		const defaultMeta = this.getDefaultMeta();
-		const anyNotDefault = Object.keys(defaultMeta).find(k => this._meta[k] !== defaultMeta[k]);
-		if (anyNotDefault) {
-			const serMeta = Object.keys(defaultMeta).map(k => UrlUtil.mini.compress(this._meta[k] === undefined ? defaultMeta[k] : this._meta[k]));
-			return [UrlUtil.packSubHash(this.getSubHashPrefix("meta", this.header), serMeta)];
-		} else return null;
+		const compressedMeta = this._getCompressedMeta();
+		if (!compressedMeta) return null;
+		return [UrlUtil.packSubHash(this.getSubHashPrefix("meta", this.header), compressedMeta)];
 	}
 
 	setMetaFromSubHashState (state) {
@@ -1141,7 +1150,7 @@ class FilterBase extends BaseComponent {
 	_getBtnMobToggleControls (wrpControls) {
 		const btnMobToggleControls = e_({
 			tag: "button",
-			clazz: `btn btn-xs btn-default mobile__visible ml-2 px-3`,
+			clazz: `btn btn-xs btn-default mobile__visible ml-auto px-3 mr-2`,
 			html: `<span class="glyphicon glyphicon-option-vertical"></span>`,
 			click: () => this._meta.isMobileHeaderHidden = !this._meta.isMobileHeaderHidden,
 		});
@@ -1166,6 +1175,25 @@ class FilterBase extends BaseComponent {
 		return vals[this.header]._isActive;
 	}
 
+	_getCompressedMeta ({isStripUiKeys = false} = {}) {
+		const defaultMeta = this.getDefaultMeta();
+		const isAnyNotDefault = Object.keys(defaultMeta).some(k => this._meta[k] !== defaultMeta[k]);
+		if (!isAnyNotDefault) return null;
+
+		let keys = Object.keys(defaultMeta);
+
+		if (isStripUiKeys) {
+			// Always pop the trailing n keys, as these are all UI options, which we don't want to embed in @filter tags
+			const popCount = Object.keys(FilterBase._DEFAULT_META).length;
+			if (popCount) keys = keys.slice(0, -popCount);
+		}
+
+		// Pop keys from the end if they match the default value
+		while (keys.length && defaultMeta[keys.last()] === this._meta[keys.last()]) keys.pop();
+
+		return keys.map(k => UrlUtil.mini.compress(this._meta[k] === undefined ? defaultMeta[k] : this._meta[k]));
+	}
+
 	$render () { throw new Error(`Unimplemented!`); }
 	$renderMinis () { throw new Error(`Unimplemented!`); }
 	getValues () { throw new Error(`Unimplemented!`); }
@@ -1181,6 +1209,7 @@ class FilterBase extends BaseComponent {
 	setFromSubHashState () { throw new Error(`Unimplemented!`); }
 	setFromValues () { throw new Error(`Unimplemented!`); }
 	handleSearch () { throw new Error(`Unimplemented`); }
+	getFilterTagPart () { throw new Error(`Unimplemented`); }
 	_doTeardown () { /* No-op */ }
 	trimState_ () { /* No-op */ }
 }
@@ -1341,7 +1370,11 @@ class Filter extends FilterBase {
 
 	getFilterTagPart () {
 		const areNotDefaultState = this._getStateNotDefault();
-		if (!areNotDefaultState.length) return null;
+		const compressedMeta = this._getCompressedMeta({isStripUiKeys: true});
+
+		// If _any_ value is non-default, we need to include _all_ values in the tag
+		// The same goes for meta values
+		if (!areNotDefaultState.length && !compressedMeta) return null;
 
 		const pt = Object.entries(this._state)
 			.filter(([k]) => !k.startsWith("_"))
@@ -1350,7 +1383,13 @@ class Filter extends FilterBase {
 			.join(";")
 			.toLowerCase();
 
-		return `${this.header.toLowerCase()}=${pt}`;
+		return [
+			this.header.toLowerCase(),
+			pt,
+			compressedMeta ? compressedMeta.join(HASH_SUB_LIST_SEP) : null,
+		]
+			.filter(it => it != null)
+			.join("=");
 	}
 
 	/**
@@ -1599,7 +1638,7 @@ class Filter extends FilterBase {
 			tag: "button",
 			clazz: `btn btn-default ${opts.isMulti ? "btn-xxs" : "btn-xs"} fltr__h-btn-logic--blue fltr__h-btn-logic w-100`,
 			click: () => this._meta.combineBlue = Filter._getNextCombineMode(this._meta.combineBlue),
-			title: `Positive matches mode for this filter. AND requires all blues to match, OR requires at least one blue to match, XOR requires exactly one blue to match.`,
+			title: `Blue match mode for this filter. "AND" requires all blues to match, "OR" requires at least one blue to match, "XOR" requires exactly one blue to match.`,
 		});
 		const hookCombineBlue = () => e_({ele: btnCombineBlue, text: `${this._meta.combineBlue}`.toUpperCase()});
 		this._addHook("meta", "combineBlue", hookCombineBlue);
@@ -1609,7 +1648,7 @@ class Filter extends FilterBase {
 			tag: "button",
 			clazz: `btn btn-default ${opts.isMulti ? "btn-xxs" : "btn-xs"} fltr__h-btn-logic--red fltr__h-btn-logic w-100`,
 			click: () => this._meta.combineRed = Filter._getNextCombineMode(this._meta.combineRed),
-			title: `Negative match mode for this filter. AND requires all reds to match, OR requires at least one red to match, XOR requires exactly one red to match.`,
+			title: `Red match mode for this filter. "AND" requires all reds to match, "OR" requires at least one red to match, "XOR" requires exactly one red to match.`,
 		});
 		const hookCombineRed = () => e_({ele: btnCombineRed, text: `${this._meta.combineRed}`.toUpperCase()});
 		this._addHook("meta", "combineRed", hookCombineRed);
@@ -1719,7 +1758,7 @@ class Filter extends FilterBase {
 		this.__$wrpFilter = $$`<div>
 			${opts.isFirst ? "" : `<div class="fltr__dropdown-divider ${opts.isMulti ? "fltr__dropdown-divider--indented" : ""} mb-1"></div>`}
 			<div class="split fltr__h ${this._minimalUi ? "fltr__minimal-hide" : ""} mb-1">
-				<div class="ml-2 fltr__h-text ve-flex-h-center">${opts.isMulti ? `<span class="mr-2">\u2012</span>` : ""}${this._getRenderedHeader()}${btnMobToggleControls}</div>
+				<div class="ml-2 fltr__h-text ve-flex-h-center mobile__w-100">${opts.isMulti ? `<span class="mr-2">\u2012</span>` : ""}${this._getRenderedHeader()}${btnMobToggleControls}</div>
 				${wrpControls}
 			</div>
 			${this.__wrpPills}
@@ -2551,8 +2590,8 @@ class SourceFilter extends Filter {
 	getDefaultMeta () {
 		// Key order is important, as @filter tags depend on it
 		return {
-			...super.getDefaultMeta(),
 			...SourceFilter._DEFAULT_META,
+			...super.getDefaultMeta(),
 		};
 	}
 }
@@ -2692,6 +2731,7 @@ class RangeFilter extends FilterBase {
 		return out.length ? out : null;
 	}
 
+	// `meta` is not included, as it is used purely for UI
 	getFilterTagPart () {
 		if (this._state.min === this._state.curMin && this._state.max === this._state.curMax) return null;
 
@@ -3147,7 +3187,11 @@ class RangeFilter extends FilterBase {
 	}
 
 	getDefaultMeta () {
-		const out = {...RangeFilter._DEFAULT_META, ...super.getDefaultMeta()};
+		// Key order is important, as @filter tags depend on it
+		const out = {
+			...RangeFilter._DEFAULT_META,
+			...super.getDefaultMeta(),
+		};
 		if (Renderer.hover.isSmallScreen()) out.isUseDropdowns = true;
 		return out;
 	}
@@ -3218,6 +3262,11 @@ class OptionsFilter extends FilterBase {
 		Object.assign(this._state, toAssign);
 	}
 
+	_getStateNotDefault () {
+		return Object.entries(this._state)
+			.filter(([k, v]) => this._defaultState[k] !== v);
+	}
+
 	getSubHashes () {
 		const out = [];
 
@@ -3236,7 +3285,17 @@ class OptionsFilter extends FilterBase {
 		return out.length ? out : null;
 	}
 
-	getFilterTagPart () { return null; }
+	// `meta` is not included, as it is used purely for UI
+	getFilterTagPart () {
+		const areNotDefaultState = this._getStateNotDefault();
+		if (!areNotDefaultState.length) return null;
+
+		const pt = areNotDefaultState
+			.map(([k, v]) => `${v ? "" : "!"}${k}`)
+			.join(";").toLowerCase();
+
+		return `${this.header.toLowerCase()}=::${pt}::`;
+	}
 
 	setFromSubHashState (state) {
 		this.setMetaFromSubHashState(state);
@@ -3419,7 +3478,11 @@ class OptionsFilter extends FilterBase {
 	}
 
 	getDefaultMeta () {
-		return {...OptionsFilter._DEFAULT_META, ...super.getDefaultMeta()};
+		// Key order is important, as @filter tags depend on it
+		return {
+			...OptionsFilter._DEFAULT_META,
+			...super.getDefaultMeta(),
+		};
 	}
 
 	handleSearch (searchTerm) {
@@ -3485,10 +3548,9 @@ class MultiFilter extends FilterBase {
 		const baseMeta = this.getMetaSubHashes();
 		if (baseMeta) out.push(...baseMeta);
 
-		const anyNotDefault = Object.keys(this._defaultState).find(k => this._state[k] !== this._defaultState[k]);
-		if (anyNotDefault) {
-			const serState = Object.keys(this._defaultState).map(k => UrlUtil.mini.compress(this._state[k] === undefined ? this._defaultState[k] : this._state[k]));
-			out.push(UrlUtil.packSubHash(this.getSubHashPrefix("state", this.header), serState));
+		const anyNotDefault = this._getStateNotDefault();
+		if (anyNotDefault.length) {
+			out.push(UrlUtil.packSubHash(this.getSubHashPrefix("state", this.header), this._getCompressedState()));
 		}
 
 		// each getSubHashes should return an array of arrays, or null
@@ -3497,8 +3559,31 @@ class MultiFilter extends FilterBase {
 		return out.length ? out : null;
 	}
 
+	_getStateNotDefault () {
+		return Object.entries(this._defaultState)
+			.filter(([k, v]) => this._state[k] !== v);
+	}
+
+	// `meta` is not included, as it is used purely for UI
 	getFilterTagPart () {
-		return this._filters.map(it => it.getFilterTagPart()).filter(Boolean).join("|");
+		return [
+			this._getFilterTagPart_self(),
+			...this._filters.map(it => it.getFilterTagPart()).filter(Boolean),
+		]
+			.filter(it => it != null)
+			.join("|");
+	}
+
+	_getFilterTagPart_self () {
+		const areNotDefaultState = this._getStateNotDefault();
+		if (!areNotDefaultState.length) return null;
+
+		return `${this.header.toLowerCase()}=${this._getCompressedState().join(HASH_SUB_LIST_SEP)}`;
+	}
+
+	_getCompressedState () {
+		return Object.keys(this._defaultState)
+			.map(k => UrlUtil.mini.compress(this._state[k] === undefined ? this._defaultState[k] : this._state[k]));
 	}
 
 	setFromSubHashState (state) {
@@ -3584,9 +3669,14 @@ class MultiFilter extends FilterBase {
 	_getHeaderControls_addExtraStateBtns (opts, wrpStateBtnsOuter) {}
 
 	$render (opts) {
-		const $btnAndOr = $(`<div class="fltr__group-comb-toggle ve-muted"></div>`)
-			.click(() => this._state.mode = this._state.mode === "and" ? "or" : "and");
-		const hookAndOr = () => $btnAndOr.text(`(group ${this._state.mode.toUpperCase()})`);
+		const btnAndOr = e_({
+			tag: "div",
+			clazz: `fltr__group-comb-toggle ve-muted`,
+			click: () => this._state.mode = this._state.mode === "and" ? "or" : "and",
+			title: `"Group AND" requires all filters in this group to match. "Group OR" required any filter in this group to match.`,
+		});
+
+		const hookAndOr = () => btnAndOr.innerText = `(group ${this._state.mode.toUpperCase()})`;
 		this._addHook("state", "mode", hookAndOr);
 		hookAndOr();
 
@@ -3600,7 +3690,7 @@ class MultiFilter extends FilterBase {
 			<div class="split fltr__h fltr__h--multi ${this._minimalUi ? "fltr__minimal-hide" : ""} mb-1">
 				<div class="ve-flex-v-center">
 					<div class="mr-2">${this._getRenderedHeader()}</div>
-					${$btnAndOr}
+					${btnAndOr}
 				</div>
 				${wrpControls}
 			</div>

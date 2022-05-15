@@ -30,7 +30,9 @@
 			"isNpc": true,
 			"source": "IMR",
 			"page": 53,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "giant",
 			"alignment": [
 				"C",
@@ -243,7 +245,9 @@
 			"isNpc": true,
 			"source": "IMR",
 			"page": 52,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -258,7 +262,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item studded leather armor|phb}"
+						"{@item studded leather armor|phb|studded leather}"
 					]
 				}
 			],
@@ -364,6 +368,9 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"P"
+			],
 			"spellcastingTags": [
 				"CR"
 			],
@@ -396,7 +403,9 @@
 					}
 				}
 			},
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "construct",
 			"alignment": [
 				"L",
@@ -532,7 +541,9 @@
 			"isNpc": true,
 			"source": "IMR",
 			"page": 54,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "undead",
 				"tags": [
@@ -571,7 +582,7 @@
 				"cha": "+7"
 			},
 			"senses": [
-				"darkvision 60ft."
+				"darkvision 60 ft."
 			],
 			"passive": 13,
 			"resist": [
@@ -682,7 +693,9 @@
 			"isNpc": true,
 			"source": "IMR",
 			"page": 55,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -848,6 +861,10 @@
 				"S",
 				"Y"
 			],
+			"damageTagsSpell": [
+				"F",
+				"L"
+			],
 			"spellcastingTags": [
 				"CA"
 			],
@@ -861,7 +878,9 @@
 			"name": "Neo-Otyugh",
 			"source": "IMR",
 			"page": 75,
-			"size": "H",
+			"size": [
+				"H"
+			],
 			"type": "aberration",
 			"alignment": [
 				"N"
@@ -1010,7 +1029,7 @@
 							{
 								"name": "Earth Walk",
 								"entries": [
-									"Seodra can move across difficult terrain made of earth or stone without expending extra movement."
+									"Seodra can move across {@quickref difficult terrain||3} made of earth or stone without expending extra movement."
 								]
 							},
 							{
@@ -1045,7 +1064,9 @@
 			"isNpc": true,
 			"source": "IMR",
 			"page": 56,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1335,7 +1356,9 @@
 			"isNpc": true,
 			"source": "IMR",
 			"page": 57,
-			"size": "M",
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1494,6 +1517,14 @@
 			"damageTags": [
 				"P"
 			],
+			"damageTagsSpell": [
+				"A",
+				"F",
+				"I",
+				"L",
+				"N",
+				"P"
+			],
 			"spellcastingTags": [
 				"CA"
 			],
@@ -1520,7 +1551,7 @@
 						"items": {
 							"name": "Acidic Spittle",
 							"entries": [
-								"{@atk rw} {@hit 4} to hit, range 30ft., one target. {@h}5 ({@damage 1d6 + 2}) acid damage."
+								"{@atk rw} {@hit 4} to hit, range 30 ft., one target. {@h}5 ({@damage 1d6 + 2}) acid damage."
 							]
 						}
 					}
@@ -1539,7 +1570,9 @@
 			"name": "Thessalheart Construct",
 			"source": "IMR",
 			"page": 86,
-			"size": "T",
+			"size": [
+				"T"
+			],
 			"type": "construct",
 			"alignment": [
 				"N"
@@ -1621,7 +1654,9 @@
 			"name": "Thessalkraken",
 			"source": "IMR",
 			"page": 87,
-			"size": "G",
+			"size": [
+				"G"
+			],
 			"type": {
 				"type": "monstrosity",
 				"tags": [
@@ -1700,7 +1735,7 @@
 				{
 					"name": "Freedom of Movement",
 					"entries": [
-						"The thessalkraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
+						"The thessalkraken ignores {@quickref difficult terrain||3}, and magical effects can't reduce its speed or cause it to be {@condition restrained}. It can spend 5 feet of movement to escape from nonmagical restraints or being {@condition grappled}."
 					]
 				}
 			],
@@ -1824,6 +1859,9 @@
 				"I",
 				"X"
 			],
+			"damageTagsSpell": [
+				"F"
+			],
 			"spellcastingTags": [
 				"I"
 			]
@@ -1832,7 +1870,9 @@
 			"name": "Two-Headed Crocodile",
 			"source": "IMR",
 			"page": 89,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "beast",
 			"alignment": [
 				"U"
@@ -1920,7 +1960,9 @@
 			"name": "Two-Headed Owlbear",
 			"source": "IMR",
 			"page": 90,
-			"size": "L",
+			"size": [
+				"L"
+			],
 			"type": "monstrosity",
 			"alignment": [
 				"U"

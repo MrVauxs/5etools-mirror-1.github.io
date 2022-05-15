@@ -839,6 +839,7 @@ class PageFilterRaces extends PageFilter {
 		r._fSpeed = r.speed ? r.speed.walk ? [r.speed.climb ? "Climb" : null, r.speed.fly ? "Fly" : null, r.speed.swim ? "Swim" : null, PageFilterRaces.getSpeedRating(r.speed.walk)].filter(it => it) : [PageFilterRaces.getSpeedRating(r.speed)] : [];
 		r._fTraits = [
 			r.darkvision === 120 ? "Superior Darkvision" : r.darkvision ? "Darkvision" : null,
+			r.blindsight ? "Blindsight" : null,
 			r.resist ? "Damage Resistance" : null,
 			r.immune ? "Damage Immunity" : null,
 			r.conditionImmune ? "Condition Immunity" : null,
@@ -862,7 +863,7 @@ class PageFilterRaces extends PageFilter {
 		if (r.hasFluff) r._fMisc.push("Has Info");
 		if (r.hasFluffImages) r._fMisc.push("Has Images");
 		if (r.lineage) r._fMisc.push("Lineage");
-		if (r.reprintedAs) r._fMisc.push("Reprinted");
+		if (this._isReprinted({reprintedAs: r.reprintedAs, tag: "race", prop: "race", page: UrlUtil.PG_RACES})) r._fMisc.push("Reprinted");
 
 		if (r.ability) {
 			const abils = PageFilterRaces.getAbilityObjs(r.ability);
