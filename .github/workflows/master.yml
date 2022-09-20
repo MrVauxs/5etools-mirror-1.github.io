@@ -1,45 +1,34 @@
-name: Build and Deploy
+name: Build and Upload Release
 
 on:
    push:
       tags:
          - 'v**'
 
+   # Allow running manually from the actions tab
+   workflow_dispatch:
+
 env:
    # See: https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions#upgrading-a-workflow-that-accesses-ghcrio
    IMAGE_NAME: 5etools
 
+concurrency:
+   group: "release"
+   cancel-in-progress: true
+
 jobs:
-   build-and-deploy:
+   create-release:
       runs-on: ubuntu-latest
       steps:
          -  uses: actions/checkout@master
 
          # See: https://stackoverflow.com/a/58178121
-         -  name: Set env
+         -  name: Set Env
             run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
          -  name: Archive Release
             run: |
                zip -r 5etools-${{ env.RELEASE_VERSION }}.zip . -x '*.git*' '*node_modules*' '*.github*' '*img*'
-
-         -  name: Add Cache-Busting Strings
-            run: |
-               bash ./.github/add-query-strings.sh ${{ env.RELEASE_VERSION }}
-
-         -  name: Build SEO Pages
-            env:
-               VET_BASE_SITE_URL: https://5etools-mirror-1.github.io/
-               VET_SEO_IS_SKIP_UA_ETC: true
-            run: |
-               npm run build:seo -- ${{ env.RELEASE_VERSION }}
-
-         # See: https://github.com/JamesIves/github-pages-deploy-action
-         -  name: Deploy
-            uses: JamesIves/github-pages-deploy-action@releases/v4
-            with:
-               branch: gh-pages
-               folder: .
 
          -  name: Archive Images
             run: |
@@ -53,15 +42,46 @@ jobs:
             env:
                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+   create-image:
+      runs-on: ubuntu-latest
+      steps:
+         -  uses: actions/checkout@master
+
+         # See: https://stackoverflow.com/a/58178121
+         -  name: Set Env
+            run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+         -  name: Set Deployed Flag
+            run: |
+               bash ./.github/set-deployed-flag.sh ${{ env.RELEASE_VERSION }}
+
+         # Remove entries from the `.gitignore` so the gh-pages action can correctly add+commit them to the pages branch
+         -  name: Build Service Worker
+            run: |
+               node --version
+               npm --version
+               npm i
+               npm run build:sw:prod
+               sed -i 's/sw.js//g' .gitignore
+               sed -i 's/sw-injector.js//g' .gitignore
+
+         -  name: Build SEO Pages
+            env:
+               VET_SEO_IS_DEV_MODE: true
+               VET_BASE_SITE_URL: https://5etools-mirror-1.github.io/
+               VET_SEO_IS_SKIP_UA_ETC: true
+            run: |
+               npm run build:seo -- ${{ env.RELEASE_VERSION }}
+
          # region See: https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows/publishing-and-installing-a-package-with-github-actions#upgrading-a-workflow-that-accesses-ghcrio
-         -  name: Build image
+         -  name: Build Image
             run: |
                docker build -t $IMAGE_NAME .
 
-         -  name: Log in to registry
+         -  name: Log In to Registry
             run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-         -  name: Push image
+         -  name: Push Image
             run: |
                IMAGE_ID=ghcr.io/${{ github.repository_owner }}/$IMAGE_NAME
 

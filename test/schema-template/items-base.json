@@ -1,14 +1,12 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"$id": "items-base.json",
-	"version": "1.4.11",
+	"version": "1.4.13",
 	"definitions": {
 		"itemLookupArray": {
 			"type": "array",
 			"uniqueItems": true,
-			"items": {
-
-			}
+			"items": {"$ref": "#/definitions/itemLookup"}
 		},
 		"itemLookupBase": {
 			"type": "object",
@@ -28,11 +26,19 @@
 					"type": "string"
 				}
 			},
-			"required": [
-				"abbreviation",
-				"source",
-				"page"
-			],
+			"$$ifSite": {
+				"required": [
+					"abbreviation",
+					"source",
+					"page"
+				]
+			},
+			"$$ifBrew": {
+				"required": [
+					"abbreviation",
+					"source"
+				]
+			},
 			"additionalProperties": false
 		},
 		"itemLookup": {
@@ -88,10 +94,10 @@
 						"type": "string"
 					},
 					"type": {
-						"$ref": "shared-items.json#/definitions/itemType"
+						"$ref": "items-shared.json#/definitions/itemType"
 					},
 					"rarity": {
-						"$ref": "shared-items.json#/definitions/itemRarity"
+						"$ref": "items-shared.json#/definitions/itemRarity"
 					},
 					"source": {
 						"type": "string"
@@ -101,7 +107,7 @@
 						"type": "integer"
 					},
 					"age": {
-						"$ref": "shared-items.json#/definitions/itemAge"
+						"$ref": "items-shared.json#/definitions/itemAge"
 					},
 					"armor": {
 						"description": "Flag used when merging generic variants",
@@ -126,7 +132,7 @@
 						}
 					},
 					"property": {
-						"$ref": "shared-items.json#/definitions/itemProperty"
+						"$ref": "items-shared.json#/definitions/itemProperty"
 					},
 					"range": {
 						"type": "string"
@@ -135,7 +141,7 @@
 						"type": "integer"
 					},
 					"scfType": {
-						"$ref": "shared-items.json#/definitions/itemScfType"
+						"$ref": "items-shared.json#/definitions/itemScfType"
 					},
 					"stealth": {
 						"type": "boolean"
@@ -193,11 +199,10 @@
 						},
 						"foundryData": {"$ref": "util.json#/definitions/foundryDataObject"},
 						"foundryFlags": {"$ref": "util.json#/definitions/foundryFlagsObject"},
+						"foundryEffects": {"$ref": "util.json#/definitions/foundryEffectsArray"},
+						"foundryImg": {"$ref": "util.json#/definitions/foundryImg"},
 						"fluff": {
-							"$ref": "shared-items.json#/definitions/fluff"
-						},
-						"foundryImg": {
-							"$ref": "util.json#/definitions/foundryImg"
+							"$ref": "items-shared.json#/definitions/fluff"
 						}
 					},
 					"valueMult": {
@@ -207,7 +212,7 @@
 						"type": "boolean"
 					},
 					"weaponCategory": {
-						"$ref": "shared-items.json#/definitions/itemWeaponCategory"
+						"$ref": "items-shared.json#/definitions/itemWeaponCategory"
 					},
 					"weight": {
 						"type": "number"
@@ -228,7 +233,7 @@
 						"$ref": "util.json#/definitions/otherSources"
 					},
 					"ammoType": {
-						"$ref": "shared-items.json#/definitions/itemAmmoType"
+						"$ref": "items-shared.json#/definitions/itemAmmoType"
 					},
 					"packContents": {
 						"type": "array",

@@ -2,9 +2,9 @@
 	"_meta": {
 		"otherSources": {
 			"monster": {
-				"MM": "DC",
-				"MTF": "DC",
-				"VGM": "DC"
+				"MM": "DIP",
+				"MTF": "DIP",
+				"VGM": "DIP"
 			}
 		}
 	},
@@ -574,7 +574,8 @@
 				"CW"
 			],
 			"hasToken": true,
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
